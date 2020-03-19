@@ -1,0 +1,16 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: performance parameters
+/// Test purpose: pitch assigned to channel aftertouch
+///
+/// Test description:
+/// Play any note, press to send aftertouch messages
+/// Verify that the pitch changes according to pressure.
+/// Observe the effect of the pitch_smoothcc opcode
+
+<region>
+sample=..\[ samples ]\440.ogg
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+pitch_oncc129=1200 pitch_smoothcc129=30

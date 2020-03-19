@@ -1,0 +1,28 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: drive
+/// Test purpose: drive on cc, smoothing and stepping
+///
+/// Test description:
+/// Play any key, and use MIDI cc73, cc70, cc20, cc21 and channel aftertouch
+/// to control the cutoff two-pole lowpass filter defined for the drive stage.
+///
+/// cc73: continuous variation
+/// cc70: continuous variation, small inertia
+/// cc20: stepped varioation, four steps of 25% each
+/// cc21: continous variation, big inertia
+/// channel aftertouch: continuous variation, mid inertia.
+
+<region> 
+sample=..\[ samples ]\two tone.wav 
+loop_mode=loop_continuous
+drive_shape=100 volume=-6
+drive_filter=lpf_2p
+
+drive_tone_oncc73=-100 drive_tone_smoothcc73=1
+drive_tone_oncc70=-100 drive_tone_smoothcc70=100
+drive_tone_oncc20=-100 drive_tone_stepcc20=-25
+drive_tone_oncc21=-100 drive_tone_smoothcc21=500
+drive_tone_oncc129=-100 drive_tone_smoothcc129=200

@@ -1,0 +1,19 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: filters
+/// Test purpose: BPF_1P filter test
+///
+/// Test description:
+/// Play any key, move mod wheel (cc1), verify the filter cutoff increases.
+/// Send channel aftertouch messages, verify the cutoff decreases.
+/// 
+/// Carefully hear the filter operation, verify the absence of clicks or
+/// discontinuities.
+
+<region> 
+sample=..\[ samples ]\noise stereo.wav
+loop_mode=loop_continuous pitch_keytrack=0
+fil_type=bpf_1p volume=6
+cutoff=1000 cutoff_oncc1=12000 cutoff_chanaft=-4000

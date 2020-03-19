@@ -1,0 +1,26 @@
+//-----------------------------------------------------------------------------
+// sfz Definition File 
+// Copyright 2005 Cakewalk Music Software
+//
+//-----------------------------------------------------------------------------
+// Test group: syntax
+// Test purpose: octave offset control opcode
+//
+// Test description:
+// Play c3 to d#3, observe the sample play.
+//
+// The <control> section provides a way to specify how the sfz file will be
+// interpreted. It is basically a pre-processor for the language.
+//
+// the 'octave_offset=' opcode allows to change IPN notation into MMA
+// so for instance c4 is recognized as MIDI note 48 instead of note 60
+
+<control>
+octave_offset=-1
+
+<group>
+sample=..\[ samples ]\440.ogg
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+
+<region> lokey=c4 hikey=c#4 pitch_keycenter=c4
+<region> lokey=d4 hikey=d#4 pitch_keycenter=c4

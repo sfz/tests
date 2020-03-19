@@ -1,0 +1,33 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: decimator
+/// Test purpose: decimator amount on cc
+///
+/// Test description:
+/// The Decimator is a samplerate-decreasing stage, generally used to add
+/// a digital harshness to the signal.
+///
+/// Use cc73, cc70, cc20, cc21, pitchbend and aftertouch to control the
+/// decimator amount applied to a single region.
+///
+///
+/// cc73: continuous variation
+/// cc70: continuous variation, small inertia
+/// cc20: stepped variation, ten steps (10% each)
+/// cc21: continuous variation, big inertia
+/// pitch bend: continuous variation (add to another control to test negative)
+/// channel aftertouch: continuous variation, medium inertia
+
+<region> sample=..\[ samples ]\440.ogg
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+amp_veltrack=0
+
+decim_oncc73=100 decim_smoothcc73=1
+decim_oncc70=100 decim_smoothcc70=100
+decim_oncc20=100 decim_stepcc20=10
+decim_oncc21=100 decim_smoothcc21=500
+
+decim_oncc128=100 decim_smoothcc128=100
+decim_oncc129=100 decim_smoothcc129=100

@@ -1,0 +1,15 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: performance parameters
+/// Test purpose: pitch on velocity, inverted
+///
+/// Test description:
+/// Play repeatedly any note, verify that one region gets a higher pitch
+/// according to the velocity of the played note.
+
+<region>
+sample=..\[ samples ]\440.ogg
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+pitch_oncc131=1200

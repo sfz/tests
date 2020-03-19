@@ -1,0 +1,18 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: release trigger
+/// Test purpose: release trigger playing on a dead sustain layer
+///
+/// Test description:
+/// Combination test of 'release trigger on sustain switch' and 'release trigger
+/// not on dead layer'. See those two examples for more info.
+
+<region>
+sample=..\[ samples ]\440.ogg
+
+<region>
+sample=..\[ samples ]\110.ogg 
+trigger=release rt_dead=off
+ampeg_attack=0.1 ampeg_decay=0.4 ampeg_sustain=0

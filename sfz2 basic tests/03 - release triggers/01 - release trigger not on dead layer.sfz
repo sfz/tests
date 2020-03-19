@@ -1,0 +1,29 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: release trigger
+/// Test purpose: release trigger not playing on a dead sustain layer
+///
+/// Test description:
+/// A typical limitation of Gigastudio when playing release triggers is that
+/// it will play the release triggers no matter if the sustain sample ended or
+/// not. For some sets, this means that if you hold the note long enough, the
+/// sample ends resulting in silence. If you then release the key, the release
+/// triggered layer plays, which is unwanted.
+///
+/// sfz allows to prevent the release triggered sample playing if the sustain
+/// layer died.
+///
+/// Play any note and release it immediately. Verify the release-triggered region
+/// plays (110.ogg).
+/// Play any note long enough so it ends. Then release it, verify the release 
+/// triggered region not playing.
+
+<region>
+sample=..\[ samples ]\440.ogg ampeg_hold=0.3 ampeg_sustain=0
+
+<region>
+sample=..\[ samples ]\110.ogg 
+trigger=release rt_dead=off
+ampeg_attack=0.1 ampeg_decay=0.4 ampeg_sustain=0

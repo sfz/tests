@@ -1,0 +1,20 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// test group: input controls
+/// test purpose: sample selection based on MIDI cc position.
+///
+/// test description:
+/// 440.ogg will play if last cc73 message was in the range 64~90 -AND-
+/// if last mod wheel message (cc1) was in the range 0~30
+///
+/// All MIDI cc's can be used as input controls for each region.
+/// The standard operator is -and-, so the region will only play if all
+/// specified conditions are met. In this way, there's no limit for the 
+/// possible combinations using any boolean operator. To use the -or- operator, 
+/// just copy the region and assign the inverse range to the copied region.
+
+<region>
+sample=..\[ samples ]\440.ogg
+locc73=64 hicc73=90 locc1=0 hicc1=30

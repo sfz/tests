@@ -1,0 +1,13 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: release trigger
+/// Test purpose: release trigger simple test
+///
+/// Test description:
+/// Play d4, nothing plays. Now play c4, verify the noise playing.
+/// Release d4, verify the hihat plays.
+
+<region> key=c4 sample=..\[ samples ]\noise.ogg 
+<region> key=d4 sample=..\[ samples ]\hh.ogg trigger=release_key rt_dead=on

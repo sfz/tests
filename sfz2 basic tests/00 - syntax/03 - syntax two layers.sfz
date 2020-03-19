@@ -1,0 +1,17 @@
+//-----------------------------------------------------------------------------
+// sfz Definition File 
+// Copyright 2005 Cakewalk Music Software
+//
+//-----------------------------------------------------------------------------
+// Test group: syntax
+// Test purpose: basic two-regions layered
+//
+// Test description:
+// 440.ogg will play in the whole keyboard in two layers
+// with one octave shift
+
+<group>
+sample=..\[ samples ]\440.ogg
+
+<region> 
+<region> transpose=12

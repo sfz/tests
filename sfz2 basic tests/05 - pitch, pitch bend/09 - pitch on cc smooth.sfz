@@ -1,0 +1,29 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: performance parameters
+/// Test purpose: pitch assigned to MIDI cc
+///
+/// Test description:
+/// Play a note, use MIDI cc73, cc70, cc20 and cc21 to select the pitch
+///
+/// cc73: continuous variation
+/// cc70: continuous variation, smoothed
+/// cc20: three-steps variation (400 cents each step)
+/// cc21: continuous variation, very slow smooth
+/// channel aftertouch: continuous variation, smoothed.
+
+<group>
+sample=..\[ samples ]\440.ogg
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+bend_up=0 bend_down=0
+
+<region> 
+pitch_oncc73=1200 pitch_smoothcc73=1
+pitch_oncc70=1200 pitch_smoothcc70=100
+pitch_oncc20=1200 pitch_smoothcc20=0 pitch_stepcc20=400
+pitch_oncc21=1200 pitch_smoothcc21=500
+
+pitch_oncc128=0 pitch_smoothcc128=100
+pitch_oncc129=1200 pitch_smoothcc129=100

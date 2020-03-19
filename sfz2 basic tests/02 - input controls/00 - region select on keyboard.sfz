@@ -1,0 +1,20 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: input controls
+/// Test purpose: sample selection based on MIDI note range
+///
+/// Test description:
+/// 440.ogg will play if incoming notes are in the c3~c4 range (looped).
+/// 110.ogg will play in the c5~c6 range (unlooped).
+
+
+<region>
+sample=..\[ samples ]\440.ogg
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+lokey=c3 hikey=c4
+
+<region>
+sample=..\[ samples ]\110.ogg
+lokey=c5 hikey=c6

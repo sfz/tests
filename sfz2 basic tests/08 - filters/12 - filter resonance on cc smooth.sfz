@@ -1,0 +1,30 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: filters
+/// Test purpose: filter resonance on cc, smooth
+///
+/// Test description:
+/// Use cc73, cc70, cc20, cc21 and channel aftertouch to adjust the resonance
+/// of a single region. 
+///
+/// cc73: continuous variation
+/// cc70: continuous variation, smoothed
+/// cc20: stepped variation, 5 steps (10dB each)
+/// cc21: continuous variation, big inertia
+/// channel aftertouch: continuous variation, medium inertia
+
+<group>
+sample=..\[ samples ]\noise.ogg
+loop_mode=loop_continuous pitch_keytrack=0
+amp_veltrack=0 volume=-6
+
+cutoff=1000
+
+<region> 
+resonance_oncc73=50 resonance_smoothcc73=1
+resonance_oncc70=50 resonance_smoothcc70=100
+resonance_oncc20=50 resonance_stepcc20=10
+resonance_oncc21=50 resonance_smoothcc21=500
+resonance_oncc129=9600 resonance_smoothcc129=200

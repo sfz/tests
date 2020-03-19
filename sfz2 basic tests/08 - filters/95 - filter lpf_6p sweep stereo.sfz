@@ -1,0 +1,17 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: filters
+/// Test purpose: filter sweep test
+///
+/// Test description:
+/// Set the microhost to render to wav in 32-bit, press any key.
+/// Plot the frequency response and distortion of the resulting file.
+
+<region> 
+sample=..\[ samples ]\sweep test stereo.wav
+loop_mode=one_shot
+pitch_keytrack=0
+amp_veltrack=0 fil_type=lpf_6p
+cutoff=1000

@@ -1,0 +1,17 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: drive
+/// Test purpose: drive stereo on MIDI cc
+///
+/// Test description:
+/// Play any key, and move the MIDI cc73 to adjust the drive shape and
+/// MIDI cc70 to adjust the drive tone.
+
+<region> 
+sample=..\[ samples ]\stereo 400 looped.wav
+
+drive_shape_oncc73=100 volume=-12
+drive_filter=lpf_1p
+drive_tone_oncc70=-100

@@ -1,0 +1,21 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: voice groups
+/// Test purpose: sustain switch enabled
+///
+/// Test description:
+/// The sustain switch can be enabled/disabled in a per-region basis.
+///
+/// Play any key, press and hold the sustain switch. Release the keys, observe
+/// that one region is held by the sustain switch, and the other region is re-
+/// leased.
+
+
+<group> 
+sample=..\[ samples ]\440.ogg
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+
+<region> transpose=12
+<region> sustain_sw=off

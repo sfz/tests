@@ -1,0 +1,17 @@
+//-----------------------------------------------------------------------------
+// sfz Definition File 
+// Copyright 2005 Cakewalk Music Software
+//
+//-----------------------------------------------------------------------------
+// Test group: performance controls
+// Test purpose: region playback delay on random
+//
+// Test description:
+// Play repeatedly the same note, observe that a random delay
+// of up to one second appears from note-on till the region
+// starts playing
+
+<region>
+sample=..\[ samples ]\440.ogg
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+delay_random=1

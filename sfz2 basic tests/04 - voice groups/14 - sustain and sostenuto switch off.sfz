@@ -1,0 +1,19 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: voice groups
+/// Test purpose: sostenuto switch enabled
+///
+/// Test description:
+/// The sostenuto switch can be enabled/disabled in a per-region basis.
+///
+/// Play several notes, verify that neither sustain nor sostenuto switches have
+/// any effect.
+
+<region> 
+sample=..\[ samples ]\440.ogg
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+pitch_keycenter=a3 
+
+sustain_sw=off sostenuto_sw=off

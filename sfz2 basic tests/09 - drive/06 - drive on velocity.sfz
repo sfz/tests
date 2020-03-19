@@ -1,0 +1,16 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: drive
+/// Test purpose: drive on velocity
+///
+/// Test description:
+/// Play any note repeatedly, verify that a bigger drive amount is applied
+/// to high velocity notes.
+
+<region> 
+sample=..\[ samples ]\two tone.wav 
+loop_mode=loop_continuous
+
+drive_shape_oncc131=100

@@ -1,0 +1,31 @@
+//-----------------------------------------------------------------------------
+// sfz Definition File 
+// Copyright 2005 Cakewalk Music Software
+//
+//-----------------------------------------------------------------------------
+// Test group: syntax
+// Test purpose: very basic test for two regions split
+//
+// Test description:
+// 440.ogg will play on c4 and above
+// 110.ogg will play below c4
+//
+// Unlimited keyboard regions can be created, each region can include 
+// one or more keys, the range is specified by the 'lokey/hikey' opcode pair.
+// A region with no specified range will play in the whole MIDI 
+// note range (0~127).
+//
+// Multiple regions can overlap.
+// Region splits won't take any extra resources except for the required memory
+// to load the samples.
+// Each new layered region will take one layer of polyphony.
+//
+// The sfz player features unlimited polyphony (limited only by the hardware
+// running it). It is possible to limit the polyphony by using the player
+// 'POLY' selector, or by specifying it in the .sfz definition file in a
+// per-group basis. 
+// It is also possible to define the polyphony for repeated notes, and specify
+// a velocity self-masking limit. See 'voice groups' examples.
+
+<region> sample=..\[ samples ]\440.ogg lokey=c4
+<region> sample=..\[ samples ]\110.ogg hikey=b3

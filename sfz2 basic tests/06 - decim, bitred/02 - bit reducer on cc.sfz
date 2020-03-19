@@ -1,0 +1,20 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: bit reducer
+/// Test purpose: bit reduction amount on MIDI cc73
+///
+/// Test description:
+/// The bit reducer stage is used to emulate the old cheap samplers and synths
+/// with few bits in the DACs.
+///
+/// Press any key, move MIDI cc73. Observe the signal being quantized
+/// and digital noise increased when higher amounts of bit reduction are applied.
+
+<region>
+<region> sample=..\[ samples ]\440.ogg
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+amp_veltrack=0
+
+bitred_oncc73=100

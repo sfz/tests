@@ -1,0 +1,10 @@
+//-----------------------------------------------------------------------------
+// sfz Definition File 
+// Copyright 2005 Cakewalk Music Software
+//
+//-----------------------------------------------------------------------------
+// Test group: syntax
+// Test purpose: test a file with nothing but comments.
+//
+// Test description:
+// Load the file, nothing will play. 

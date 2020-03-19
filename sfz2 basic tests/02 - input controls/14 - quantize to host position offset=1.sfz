@@ -1,0 +1,18 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: input controls
+/// Test purpose: region playback quantized to host position
+///
+/// Test description:
+/// Set the player as plugin, set another plugin to play
+/// a kick drum to mark the beat start (just as a reference).
+/// 
+/// Play any note off beat, observe that the actual playback
+/// starts in next beat one (not zero).
+/// Change 'sync_offset' value to select the start-up position, floating point
+/// values allowed.
+
+<region> sample=..\[ samples ]\Stereo_16_44100.wav
+sync_beats=4 sync_offset=1

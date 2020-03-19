@@ -1,0 +1,23 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: input controls
+/// Test purpose: sample selection based on if a particular key is pressed
+///
+/// Test description:
+/// Press c4, observe that nothing plays.
+/// now start pressing c3~e3 and observe that each new key enables the playback
+/// of a new sample on c4 and above. 
+/// As soon as the switching key is released, the regions are disabled.
+///
+/// Required by the intelligent arpeggiator.
+
+<group>
+sw_lokey=48 sw_hikey=52 lokey=60 
+
+<region> sample=..\[ samples ]\440.ogg    sw_down=48
+<region> sample=..\[ samples ]\110.ogg    sw_down=49
+<region> sample=..\[ samples ]\noise.ogg  sw_down=50
+<region> sample=..\[ samples ]\bd.ogg     sw_down=51
+<region> sample=..\[ samples ]\hh.ogg     sw_down=52

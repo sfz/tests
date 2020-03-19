@@ -1,0 +1,23 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: voice groups
+/// Test purpose: exclusive regions, unidirectional, two regions
+///
+/// Test description:
+/// Notes below middle C will turn off only one region 
+/// for sounding notes above middle C
+
+<region>
+sample=..\[ samples ]\110.ogg
+lokey=0 hikey=b3
+group=1 
+
+<group>
+sample=..\[ samples ]\440.ogg
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous 
+
+<region> lokey=c4
+<region> lokey=c4 transpose=7 off_by=1
+

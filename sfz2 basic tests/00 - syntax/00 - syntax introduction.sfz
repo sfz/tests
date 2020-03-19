@@ -1,0 +1,27 @@
+//-----------------------------------------------------------------------------
+// sfz Definition File 
+// Copyright 2005 Cakewalk Music Software
+//
+//-----------------------------------------------------------------------------
+// Test group: syntax
+// Test purpose: showing the simplest syntax for a region
+//
+// Test description:
+// 440.ogg will play in the whole keyboard, no looping
+//
+// If the .sfz file is in the same folder than the samples,
+// the path is not required. For instance:
+// 
+// sample=440.ogg
+//
+// Otherwise, path must be specified -relative- to the .sfz file location.
+// This example file will try to load the sample 440.ogg
+// from a folder called '[ samples ]' located in its parent folder.
+//
+// ....\[ samples ]\
+// ....\[ samples ]\440.ogg
+// ....\00 - syntax\
+// ....\00 - syntax\syntax introduction.sfz
+
+
+<region> sample=..\[ samples ]\440.ogg

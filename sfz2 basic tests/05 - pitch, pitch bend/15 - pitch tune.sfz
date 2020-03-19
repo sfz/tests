@@ -1,0 +1,15 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: performance parameters
+/// Test purpose: simple tune vs transpose test
+///
+/// Test description:
+/// Verify that the two regions play in unison
+
+<group>
+sample=..\[ samples ]\440.ogg
+
+<region>
+<region> tune=100 transpose=-1

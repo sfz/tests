@@ -1,0 +1,18 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: filters
+/// Test purpose: filter resonance on cc
+///
+/// Test description:
+/// Play any note, verify the resonance increases when moving the mod wheel
+/// (cc1). Aftertouch will move the cutoff two octaves.
+
+<region>
+sample=..\[ samples ]\noise.ogg
+loop_mode=loop_continuous pitch_keytrack=0
+amp_veltrack=0 volume=-6
+
+cutoff=500 resonance_oncc1=30
+cutoff_oncc129=2400

@@ -1,0 +1,18 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: filters
+/// Test purpose: filter cutoff on random
+///
+/// Test description:
+/// Play repeatedly same note, verify that the filter is tuned in a different
+/// frequency each time.
+
+<region>
+sample=..\[ samples ]\noise.ogg
+loop_mode=loop_continuous pitch_keytrack=0
+amp_veltrack=0 volume=-6
+
+cutoff=500 cutoff_oncc135=1200
+resonance=30 

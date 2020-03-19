@@ -1,0 +1,33 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: bit reducer
+/// Test purpose: bit reduction amount on MIDI cc73
+///
+/// Test description:
+/// The bit reducer stage is used to emulate the old cheap samplers and synths
+/// with few bits in the DACs.
+///
+/// Use cc73, cc70, cc20, cc21, pitchbend and aftertouch to control the
+/// bit reduction amount applied to a single region sample.
+///
+///
+/// cc73: continuous variation
+/// cc70: continuous variation, small inertia
+/// cc20: stepped variation, ten steps (10% each)
+/// cc21: continuous variation, big inertia
+/// pitch bend: continuous variation (add to another control to test negative)
+/// channel aftertouch: continuous variation, medium inertia
+
+<region> sample=..\[ samples ]\440.ogg
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+amp_veltrack=0
+
+bitred_oncc73=100 bitred_smoothcc73=1
+bitred_oncc70=100 bitred_smoothcc70=100
+bitred_oncc20=100 bitred_stepcc20=10
+bitred_oncc21=100 bitred_smoothcc21=500
+
+bitred_oncc128=100 bitred_smoothcc128=100
+bitred_oncc129=100 bitred_smoothcc129=100

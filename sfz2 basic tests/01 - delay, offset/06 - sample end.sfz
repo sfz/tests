@@ -1,0 +1,18 @@
+//-----------------------------------------------------------------------------
+// sfz Definition File 
+// Copyright 2005 Cakewalk Music Software
+//
+//-----------------------------------------------------------------------------
+// Test group: performance parameters
+// Test purpose: specified sample end
+//
+// Test description:
+// Press any key, verify the sample playback for a very brief time.
+//
+// The sample is a wave file with a predefined loop, so in absence of the
+// 'end' opcode it would play continously.
+// The opcode sets the sample to end playing after sample 1764.
+
+<region>
+sample=..\[ samples ]\mono looped 1k.wav 
+end=1764

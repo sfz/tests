@@ -1,0 +1,32 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: performance parameters
+/// Test purpose: pitch assigned to MIDI cc, bipolar
+///
+/// Test description:
+/// Play a note, use MIDI cc73 to select the pitch
+/// a reference region will play to ensure that both regions match
+/// when cc73 value is 64.
+///
+/// Note that this example creates a curve with a slight center mark
+/// to ensure that zero is performed when value 64 is received.
+
+<group>
+sample=..\[ samples ]\440.ogg
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+bend_up=0 bend_down=0
+
+<region> // reference region
+<region> pitch_oncc73=1200 pitch_curvecc73=7 // DIMENSION: 6 default curves
+
+
+/////////////////////////////////////////////////////////////////////////////
+/// let's create a bipolar control curve:
+///
+/// output range is -1 to 1 for input values 0~127
+
+<curve> v000=-1 v064=0 v127=1  // DIMENSION: default curve 6
+
+

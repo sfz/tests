@@ -1,0 +1,19 @@
+//-----------------------------------------------------------------------------
+// sfz Definition File 
+// Copyright 2005 Cakewalk Music Software
+//
+//-----------------------------------------------------------------------------
+// Test group: performance parameters
+// Test purpose: region delay on MIDI cc
+//
+// Test description:
+// As most parameters in sfz, region delay can be assigned to any modulation
+// source. In this example, region delay is linked to mod wheel (MIDI cc1).
+//
+// Play repeatedly any key, and move the mod wheel (cc1)
+// Observe a different delay based on mod wheel position.
+
+<region>
+sample=..\[ samples ]\440.ogg
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+delay_oncc1=1

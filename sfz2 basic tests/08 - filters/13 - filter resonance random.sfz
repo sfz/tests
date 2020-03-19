@@ -1,0 +1,16 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: filters
+/// Test purpose: filter resonance on random
+///
+/// Test description:
+/// Play several notes, verify resonance is set to a new value each note. 
+
+<region>
+sample=..\[ samples ]\noise.ogg
+loop_mode=loop_continuous pitch_keytrack=0
+amp_veltrack=0 volume=-6
+
+cutoff=1000 resonance_oncc135=40

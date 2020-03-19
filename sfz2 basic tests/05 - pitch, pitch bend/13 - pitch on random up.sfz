@@ -1,0 +1,18 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: performance parameters
+/// Test purpose: pitch on random, up
+///
+/// Test description:
+/// Play repeatedly any note, verify that one region gets a random pitch
+/// The random pitch has to be always equal to or higher than the pitch of
+/// the reference region.
+
+<group>
+sample=..\[ samples ]\440.ogg
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+
+<region> // reference region
+<region> pitch_oncc135=1200

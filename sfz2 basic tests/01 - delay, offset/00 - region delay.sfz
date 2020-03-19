@@ -1,0 +1,38 @@
+//-----------------------------------------------------------------------------
+// sfz Definition File 
+// Copyright 2005 Cakewalk Music Software
+//
+//-----------------------------------------------------------------------------
+// Test group: performance parameters
+// Test purpose: region delay
+//
+// Test description:
+// Region delay is the time elapsed from note-on till the region plays.
+//
+// This test has several regions with same sample and a different
+// delay and transpose for each.
+// Play a key and observe my enormous scoring skills.
+// verify that each note dies in the polyphony counter.
+
+<group>
+sample=..\[ samples ]\440.ogg
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+ampeg_hold=0.25
+ampeg_attack=0.01
+ampeg_sustain=0
+
+<region>             
+<region> delay=0.25 transpose=2
+<region> delay=0.5  transpose=4
+<region> delay=0.75 transpose=7
+<region> delay=1    transpose=5
+<region> delay=1.25 transpose=5
+<region> delay=1.5  transpose=9
+<region> delay=1.75 transpose=7
+<region> delay=2    transpose=7
+<region> delay=2.25 transpose=12
+<region> delay=2.5  transpose=11
+<region> delay=2.75 transpose=12
+<region> delay=3    transpose=7
+<region> delay=3.25 transpose=4
+<region> delay=3.5

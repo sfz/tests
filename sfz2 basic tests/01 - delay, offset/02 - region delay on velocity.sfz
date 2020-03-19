@@ -1,0 +1,20 @@
+//-----------------------------------------------------------------------------
+// sfz Definition File 
+// Copyright 2005 Cakewalk Music Software
+//
+//-----------------------------------------------------------------------------
+// Test group: performance parameters
+// Test purpose: region playback delay on note velocity
+//
+// Test description:
+// As most parameters in sfz, region delay can be assigned to any modulation
+// source. In this example, region delay is linked to note-on velocity.
+//
+// Play repeatedly same note using different velocities
+// observe that the delay gets lower when pressing harder
+// (high velocities -> lower delay times)
+
+<region>
+sample=..\[ samples ]\440.ogg
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+delay=1 delay_oncc131=-2 amp_veltrack=0

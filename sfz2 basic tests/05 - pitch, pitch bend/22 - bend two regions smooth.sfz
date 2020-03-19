@@ -1,0 +1,23 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: performance parameters
+/// Test purpose: bend range, bend smooth
+///
+/// Test description:
+/// Play any note, move the bend wheel up and down.
+/// Verify that the two regions have inverted bend ranges
+/// Perform fast movements on the bend wheel, observe the effect of the
+/// 'bend_smooth' opcode (inertia)
+
+<group>
+sample=..\[ samples ]\440.ogg
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+bend_smooth=50
+
+<region>
+bend_up=1200 bend_down=-1200
+
+<region>
+bend_up=-1200 bend_down=1200

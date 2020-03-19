@@ -1,0 +1,23 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: filters
+/// Test purpose: filter keycenter
+///
+/// Test description:
+/// The 'fil_keycenter' opcode will determinate which key has a zero effect
+/// of the 'fil_keytrack' opcode. The cutoff for that key will be the specified
+/// by the 'cutoff' opcode (provided that no other modulation is applied).
+///
+/// Play several notes, verify that both region filters are tuned with one
+/// octave separation.
+
+<group>
+sample=..\[ samples ]\noise.ogg
+loop_mode=loop_continuous pitch_keytrack=0
+cutoff=400 resonance=30 fil_keytrack=100
+amp_veltrack=0 volume=-6
+
+<region> fil_keycenter=60 
+<region> fil_keycenter=72

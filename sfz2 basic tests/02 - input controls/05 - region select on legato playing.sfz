@@ -1,0 +1,29 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: input controls
+/// Test purpose: sample selection on legato playing
+///
+/// Test description:
+/// Play several notes staccatto: 440.ogg will play untransposed.
+/// Play several notes legato (new note is pressed before last one is
+/// released). 440.ogg will play untransposed the first note, but
+/// it'll play one octave down for the legato notes.
+///
+/// This approach makes extremely simple to select samples for true legato
+/// or to select an alternate region with a different start point, attack, 
+/// or whatever the sample needs when in legato.
+///
+/// This is not the test for the typical synthesizer mono/legato mode.
+
+
+<group>
+sample=..\[ samples ]\440.ogg
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous 
+group=1 polyphony=1
+
+<region> trigger=first transpose=-12 
+<region> trigger=legato
+
+

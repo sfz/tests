@@ -1,0 +1,41 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: filters
+/// Test purpose: filter cutoff on cc, smooth
+///
+/// Test description:
+/// Use cc73, cc70, cc20, cc21 and aftertouch to control the cutoff
+/// of a single region in a 8-octave range, with a default of 100Hz.
+///
+/// Move cc70 to maximum (127) before start.
+///
+/// cc73: continuous variation
+/// cc70: continuous variation, reversed curve
+/// cc20: stepped variation, eight steps (one octave per step)
+/// cc21: continuous variation, big inertia
+/// channel aftertouch: continuous variation, medium inertia
+///
+/// The test uses the default LPF_2P filter.
+
+<group>
+sample=..\[ samples ]\noise.ogg
+loop_mode=loop_continuous pitch_keytrack=0
+resonance=30 cutoff=100
+amp_veltrack=0 volume=-6
+
+<region> 
+cutoff_oncc73=9600  cutoff_smoothcc73=1
+cutoff_oncc70=9600  cutoff_smoothcc70=100 cutoff_curvecc70=1
+cutoff_oncc20=9600  cutoff_stepcc20=1200
+cutoff_oncc21=9600  cutoff_smoothcc21=500
+cutoff_oncc129=9600 cutoff_smoothcc129=200
+
+
+/////////////////////////////////////////////////////////////////////////////
+/// create a linear reversed, unipolar curve
+///
+/// output goes from 1 to 0 for input values 0~127
+
+<curve> v000=1 v127=0

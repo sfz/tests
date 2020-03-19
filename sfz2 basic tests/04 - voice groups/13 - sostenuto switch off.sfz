@@ -1,0 +1,16 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: voice groups
+/// Test purpose: sostenuto switch disabled
+///
+/// Test description:
+/// Verify that sostenuto switch (cc66) doesn't have any effect.
+
+<region> 
+sample=..\[ samples ]\440.ogg
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+pitch_keycenter=a3
+
+sostenuto_sw=off

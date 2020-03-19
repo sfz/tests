@@ -1,0 +1,26 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: voice groups
+/// Test purpose: exclusive regions, bidirectional
+///
+/// Test description:
+/// Notes below middle C will cut notes above middle C
+/// -and viceversa-
+///
+/// The most common example for exclusive regions are the open/closed hi-hat, 
+/// the unmuted/muted triangle/tambourine, etc.
+
+<region> 
+sample=..\[ samples ]\110.ogg
+loop_start=10825 loop_end=32473 loop_mode=loop_continuous
+hikey=b3 
+group=1 off_by=2
+
+<region> 
+lokey=c4 hikey=127 sample=..\[ samples ]\440.ogg 
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous 
+group=2 off_by=1
+
+

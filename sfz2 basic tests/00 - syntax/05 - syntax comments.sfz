@@ -1,0 +1,28 @@
+//-----------------------------------------------------------------------------
+// sfz Definition File 
+// Copyright 2005 Cakewalk Music Software
+//
+//-----------------------------------------------------------------------------
+// Test group: syntax
+// Test purpose: verifying that player ignores comment lines
+//
+// Test description:
+// 440.ogg will play on any note on, 110.ogg will not play as it's commented
+// bend range up will be 12 semitones.
+//
+// Comment lines extend from the first slash ('/') till the end of the line.
+
+<region>
+tune=100
+transpose=-1
+
+// this is a comment line
+sample=..\[ samples ]\440.ogg loop_mode=loop_continuous // bend_up=-1200
+
+
+// this is another
+bend_up=1200
+
+
+// sample=..\[ samples ]\110.ogg loop_mode=loop_continuous
+// no enter at the end

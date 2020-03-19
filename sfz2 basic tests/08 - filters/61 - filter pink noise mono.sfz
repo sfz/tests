@@ -1,0 +1,14 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: filters
+/// Test purpose: comb filter
+///
+/// Test description:
+/// Play any key, verify that noise is turned into pink noise by the filter.
+
+<region> sample=..\[ samples ]\noise mono.wav
+loop_mode=loop_continuous
+
+fil_type=pink

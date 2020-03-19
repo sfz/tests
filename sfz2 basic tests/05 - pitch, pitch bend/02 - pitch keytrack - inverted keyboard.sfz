@@ -1,0 +1,14 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: performance parameters
+/// Test purpose: 'pitch_keytrack' (pitch tracking)
+///
+/// Test description:
+/// Play a scale, verify the scale goes down when playing it upwards
+
+<region>
+sample=..\[ samples ]\440.ogg 
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+pitch_keycenter=63 pitch_keytrack=-100

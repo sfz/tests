@@ -1,0 +1,14 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: input controls
+/// Test purpose: sample selection based on host tempo
+///
+/// Test description:
+/// bd.ogg will play if host tempo is lower than 100.3 bpm
+/// hh.ogg will play if host tempo is higher than 100.4 bpm
+
+<region> sample=..\[ samples ]\bd.ogg lobpm=0 hibpm=100.3
+<region> sample=..\[ samples ]\hh.ogg lobpm=100.4 hibpm=200
+

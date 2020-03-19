@@ -1,0 +1,30 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: voice groups
+/// Test purpose: polyphony
+///
+/// Test description:
+/// This test shows how to create 'voice groups' or 'polyphony groups'.
+/// The first region (below c4) is assigned to group 1, and its polyphony is 
+/// restrained to seven notes. The second region (c4 to b4) is assigned to
+/// group 2, and allowed to play one voice.
+/// The third region (c5 to g9) is also assigned to group 2, so it will share
+/// polyphony with the second region.
+///
+/// The player 'polyphony' will determinate the maximum amount of voices that
+/// all regions will play.
+///
+/// Polyphony stealing is performed following a few 'smart' rules (low voice not
+/// stealed, steal notes in delay stage, then the oldest, etc).
+
+
+<group>
+sample=..\[ samples ]\440.ogg
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+pitch_keycenter=a3 
+
+<region> group=1 hikey=b3 polyphony=7 
+<region> group=2 lokey=c4 hikey=b4 polyphony=1
+<region> group=2 lokey=c5 polyphony=1

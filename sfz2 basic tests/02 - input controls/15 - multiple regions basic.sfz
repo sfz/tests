@@ -1,0 +1,20 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: input controls
+/// Test purpose: layering, keyboard split, velocity split basic test
+///
+/// Test description:
+/// Three regions simple test.
+/// Main region will play across the whole keyboard
+/// Second region will play only below c4, one octave high.
+/// Third region will play above c4, only on notes with velocity greater
+/// than 64 (press hard), and two octaves high.
+
+<group>
+sample=..\[ samples ]\440.ogg
+
+<region> transpose=-36 volume=-6
+<region> hikey=b3 transpose=-24
+<region> lokey=c4 lovel=64 transpose=-12

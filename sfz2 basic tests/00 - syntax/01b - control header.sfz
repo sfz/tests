@@ -1,0 +1,22 @@
+//-----------------------------------------------------------------------------
+// sfz Definition File 
+// Copyright 2005 Cakewalk Music Software
+//
+//-----------------------------------------------------------------------------
+// Test group: syntax
+// Test purpose: '<control>' header
+//
+// Test description:
+// The '<control>' header determinates how the sfz syntax is interpreted by the
+// parser. One of the opcodes which can be included inside the '<control>' header
+// is the 'octave_offset=' opcode, which allows to make-up the IPN/MMA note naming
+// convention difference when translating into MIDI note numbers.
+// Standard naming is IPN (International Pitch Notation), which defines c4 as
+// middle C, resulting in MIDI note 60.
+
+
+<region> sample=..\[ samples ]\440.ogg key=c4 // will play when MIDI note 60 is received
+
+<control> octave_offset=-1
+<region> sample=..\[ samples ]\440.ogg key=c4 // will play when MIDI note 48 is received
+

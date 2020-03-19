@@ -1,0 +1,14 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: drive
+/// Test purpose: drive mono
+///
+/// Test description:
+/// Play any key, verify the sample sounds as an overdriven sine wave.
+
+<region> 
+sample=..\[ samples ]\mono 400 looped.wav
+
+drive_shape=100 volume=-12

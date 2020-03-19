@@ -1,0 +1,17 @@
+//-----------------------------------------------------------------------------
+// sfz Definition File 
+// Copyright 2005 Cakewalk Music Software
+//
+//-----------------------------------------------------------------------------
+// Test group: performance parameters
+// Test purpose: sample offset on MIDI cc
+//
+// Test description:
+// The sample offset adjusts the point where the player will start
+// playing the sample, in samples.
+//
+// Play any key repeatedly, use mod wheel (cc1) to select the sample offset
+
+<region> 
+sample=..\[ samples ]\Stereo_16_44100.wav
+offset_oncc1=100000

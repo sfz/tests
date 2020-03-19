@@ -1,0 +1,30 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: performance parameters
+/// Test purpose: pitch assigned to MIDI cc, digital curve
+///
+/// Test description:
+/// Play a note, use MIDI cc73 to adjust the pitch of one region.
+/// The pitch will be one octave higher when cc73 values are 64 or higher
+/// and one octave lower otherwise
+
+<group>
+sample=..\[ samples ]\440.ogg
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+bend_up=0 bend_down=0
+
+<region> // reference region
+<region> pitch_oncc73=1200 pitch_curvecc73=7 // DIMENSION: 6 factory curves
+
+
+/////////////////////////////////////////////////////////////////////////////
+/// let's create a digital control curve:
+///
+/// output is -1 if input is 0~64
+/// output is 1 if input is 65~127
+
+<curve> v000=-1 v064=-1 v065=1 v127=1
+
+

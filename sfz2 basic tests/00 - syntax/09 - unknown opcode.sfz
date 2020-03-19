@@ -1,0 +1,15 @@
+//-----------------------------------------------------------------------------
+// sfz Definition File 
+// Copyright 2005 Cakewalk Music Software
+//
+//-----------------------------------------------------------------------------
+// Test group: syntax
+// Test purpose: testing the error logger
+//
+// Test description:
+// The 'engine_color' and 'engine_tone' should appear in the
+// error log file.
+
+
+<region> sample=..\[ samples ]\440.ogg
+engine_color=organic engine_tone=warm

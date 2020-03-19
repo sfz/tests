@@ -1,0 +1,26 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: voice groups
+/// Test purpose: exclusive regions, 'off_mode' opcode
+///
+/// Test description:
+/// When a region is muted by its exclusive one, it can either pass thru the 
+/// normal release stage (as if it was released), or be set into a 'fast release'
+/// status, which will kill it instantaneously (fast enough to avoid clicks
+/// actually). This shows the fast release off mode.
+///
+/// Play and hold any note above c4, then play any note below c4. Verify the note
+/// being instantaneously cut.
+
+<region>
+sample=..\[ samples ]\noise.ogg loop_mode=loop_continuous pitch_keytrack=0
+ampeg_release=10
+lokey=c4
+off_by=1 off_mode=fast
+
+<region> 
+sample=..\[ samples ]\440.ogg
+hikey=b3
+group=1

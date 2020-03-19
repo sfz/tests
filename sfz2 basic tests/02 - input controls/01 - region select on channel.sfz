@@ -1,0 +1,21 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// test group: input controls
+/// test purpose: sample selection based on MIDI channel of the note events
+///
+/// test description:
+/// 440.ogg will play if incoming notes are in midi channels 1 to 5
+/// 110.ogg will play for notes in channels 6 to 10
+/// no region will play for channels 11 to 16
+
+
+<region>
+sample=..\[ samples ]\440.ogg
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+lochan=1 hichan=5
+
+<region>
+sample=..\[ samples ]\110.ogg
+lochan=6 hichan=10

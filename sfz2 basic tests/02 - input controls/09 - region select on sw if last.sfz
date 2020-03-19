@@ -1,0 +1,25 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: input controls
+/// Test purpose: sample selection based on last key pressed (aka 'keyswitching')
+///
+/// Test description:
+/// Press c4, observe nothing plays.
+/// Now play c3~e3 to enable a different sample for playback above c4.
+/// 
+/// 'sw_last' works as a toggle switch, so it's not required to keep the key
+/// down the only keys evaluated to determinate what regions to select are the
+/// keys in the range sw_lokey to sw_hikey
+/// Those keys (switching keys) can play a region or not, in this example file
+/// they don't.
+
+<group>
+sw_lokey=48 sw_hikey=52 lokey=60 
+
+<region> sample=..\[ samples ]\440.ogg    sw_last=c3 
+<region> sample=..\[ samples ]\110.ogg    sw_last=49
+<region> sample=..\[ samples ]\noise.ogg  sw_last=50
+<region> sample=..\[ samples ]\bd.ogg     sw_last=51
+<region> sample=..\[ samples ]\hh.ogg     sw_last=52

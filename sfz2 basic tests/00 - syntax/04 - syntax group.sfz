@@ -1,0 +1,58 @@
+//-----------------------------------------------------------------------------
+// sfz Definition File 
+// Copyright 2005 Cakewalk Music Software
+//
+//-----------------------------------------------------------------------------
+// Test group: syntax
+// Test purpose: region grouping
+//
+// Test description:
+// Two groups are created, for regions covering the c4~c5 range
+// the two groups have the same settings except for amp release time
+// and they're switched using mod wheel (cc1)
+//
+// Play several notes in c4~c5 range, observe a long release
+// activate mod wheel above the half (value greater than 64)
+// and then play notes in the range c4~c5 again, observe a short
+// release.
+//
+// The <group> header is intended to include properties common to
+// several regions, avoiding the need to enter the same parameter
+// multiple times. A group extends from one <group> header to another
+// (to the end of the file for the last group).
+
+
+//-----------------------------------------------------------------------------
+/// long release group, cc1 < 64
+
+<group>
+sample=..\[ samples ]\440.ogg 
+ampeg_release=5 
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+hicc1=64
+
+<region> lokey=c4  hikey=c#4
+<region> lokey=d4  hikey=d#4
+<region> lokey=e4  hikey=f4
+<region> lokey=f#4 hikey=g4
+<region> lokey=g#4 hikey=a4
+<region> lokey=a#4 hikey=b4
+<region> lokey=c5  hikey=c#5
+
+
+//-----------------------------------------------------------------------------
+/// short release group, cc1 > 64
+
+<group>
+sample=..\[ samples ]\440.ogg 
+ampeg_release=0.1 
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+locc1=65
+
+<region> lokey=c4  hikey=c#4
+<region> lokey=d4  hikey=d#4
+<region> lokey=e4  hikey=f4
+<region> lokey=f#4 hikey=g4
+<region> lokey=g#4 hikey=a4
+<region> lokey=a#4 hikey=b4
+<region> lokey=c5 hikey=c#5

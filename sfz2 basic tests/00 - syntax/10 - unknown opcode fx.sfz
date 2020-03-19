@@ -1,0 +1,17 @@
+//-----------------------------------------------------------------------------
+// sfz Definition File 
+// Copyright 2005 Cakewalk Music Software
+//
+//-----------------------------------------------------------------------------
+// Test group: syntax
+// Test purpose: testing the error logger
+//
+// Test description:
+// The delay_hyperbolization' opcode should appear in the error log file.
+
+
+<region> sample=..\[ samples ]\440.ogg
+
+<effect>
+type=delay
+delay_hyperbolization=high

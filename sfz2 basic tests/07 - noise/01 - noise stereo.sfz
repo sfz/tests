@@ -1,0 +1,27 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: noise
+/// Test purpose: noise stereo, voice-level noise generator
+///
+/// Test description:
+/// The voice-level noise generator generates full bandwidth, decorrelated
+/// white noise. The noise can be pre-filtered before injection on the audio
+/// bus with its own filter, so it's not needed to use main filters.
+///
+/// The noise can be generated in mono or stereo. Noise Level, Step, filter
+/// type and Tone (filter cutoff) can be adjusted.
+///
+/// Play any key, verify that pink noise is generated. 
+/// Verify stereo decorrelation.
+
+<region> 
+sample=..\[ samples ]\stereo silence.wav
+amp_veltrack=0
+
+noise_stereo=on
+noise_filter=pink
+noise_level=10
+noise_step=0
+noise_tone=100

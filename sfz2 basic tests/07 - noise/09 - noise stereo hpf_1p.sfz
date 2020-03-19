@@ -1,0 +1,27 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: noise
+/// Test purpose: noise tone on MIDI cc, hpf_1p filter applied
+///
+/// Test description:
+/// The voice-level noise generator generates full bandwidth, decorrelated
+/// white noise. The noise can be pre-filtered before injection on the audio
+/// bus with its own filter, so it's not needed to use main filters.
+///
+/// The noise can be generated in mono or stereo. Noise Level, Step, filter
+/// type and Tone (filter cutoff) can be adjusted.
+///
+/// Play any key, use MIDI cc73 to control noise tone.
+
+
+<region> 
+sample=..\[ samples ]\stereo silence.wav
+amp_veltrack=0
+
+noise_filter=hpf_1p
+noise_level=0
+noise_step=0
+noise_tone=0
+noise_tone_oncc73=100

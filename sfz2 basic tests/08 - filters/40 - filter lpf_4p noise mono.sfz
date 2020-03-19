@@ -1,0 +1,22 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: filters
+/// Test purpose: LPF_4P filter test
+///
+/// Test description:
+/// Play any key, move mod wheel (cc1), verify the filter cutoff increases.
+/// Send channel aftertouch messages, verify the cutoff decreases.
+///
+/// Filter resonance is assigned to cc73 
+/// Carefully hear the filter operation, verify the absence of clicks or
+/// discontinuities.
+
+<region> 
+sample=..\[ samples ]\noise mono.wav
+loop_mode=loop_continuous pitch_keytrack=0
+cutoff=1000 cutoff_oncc1=12000 cutoff_chanaft=-4000
+resonance=10 resonance_oncc73=20
+
+fil_type=lpf_4p

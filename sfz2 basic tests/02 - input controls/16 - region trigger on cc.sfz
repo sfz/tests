@@ -1,0 +1,32 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: input controls
+/// Test purpose: sample trigger on MIDI cc
+///
+/// Test description:
+/// Press and release the Sustain Switch (cc64). Observe that the kick will 
+/// play on pressing, and the hihat will play on release.
+/// Move the mod wheel to max. Multiple hihat samples will be triggered when
+/// the mod wheel is above 64, and the kick will play when mod wheel is zero.
+///
+/// This function can be used to add auditive feedback to MIDI cc changes.
+
+<group> lokey=-1 hikey=-1
+
+<region>
+sample=..\[ samples ]\bd.ogg
+on_locc64=127 on_hicc64=127
+
+<region>
+sample=..\[ samples ]\hh.ogg
+on_locc64=0 on_hicc64=0
+
+<region>
+sample=..\[ samples ]\bd.ogg
+on_locc1=0 on_hicc1=0
+
+<region>
+sample=..\[ samples ]\hh.ogg
+on_locc1=64 on_hicc1=127

@@ -1,0 +1,22 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: input controls
+/// Test purpose: sample selection based on an internal random generator
+///
+/// Test description:
+/// Press repeatedly any key. Observe different regions playing in 
+/// a random basis (pitch changes on each new note).
+///
+/// This function allows to arrange several samples for the same note, and 
+/// trigger them randomly, for instance, to simulate the small performance
+/// variations in each snare hit or violin note.
+
+<group>
+sample=..\[ samples ]\bd.ogg 
+
+<region> transpose=0 lorand=0 	 hirand=0.25
+<region> transpose=3 lorand=0.25 hirand=0.5
+<region> transpose=6 lorand=0.5  hirand=0.75
+<region> transpose=8 lorand=0.75 hirand=1

@@ -1,0 +1,26 @@
+//-----------------------------------------------------------------------------
+// sfz Definition File 
+// Copyright 2005 Cakewalk Music Software
+//
+//-----------------------------------------------------------------------------
+// Test group: syntax
+// Test purpose: verifying that the player understands note names
+//
+// Test description:
+// Play c4 to d#4, observe the sample play.
+//
+// Note numbers or note names can alternatively be used in the sfz definition
+// file.
+//
+// For note names, the sfz format uses the IPN (International Pitch Notation)
+// convention, sponsored by the Accoustic Society of America. 
+// Under that standard, the center key is c4, and the midi range goes 
+// from c-1 to g9.
+
+
+<group>
+sample=..\[ samples ]\440.ogg
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+
+<region> lokey=c4 hikey=c#4 pitch_keycenter=c4
+<region> lokey=d4 hikey=d#4 pitch_keycenter=c4

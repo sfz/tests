@@ -1,0 +1,14 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: drive
+/// Test purpose: drive on channel aftertouch
+///
+/// Test description:
+/// Play any note, send aftertouch messages. Verify the drive effect.
+
+
+<region> 
+sample=..\[ samples ]\two tone.wav loop_mode=loop_continuous
+drive_shape_oncc129=100

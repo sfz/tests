@@ -1,0 +1,18 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: release trigger
+/// Test purpose: release trigger on sustain switch
+///
+/// Test description:
+/// Play any key and hold the sound with the sustain switch.
+/// Release the sustain switch, verify the release-triggered region playing.
+
+<region>
+sample=..\[ samples ]\440.ogg loop_mode=loop_continuous
+
+<region>
+sample=..\[ samples ]\110.ogg 
+trigger=release
+ampeg_attack=0.1 ampeg_decay=0.4 ampeg_sustain=0

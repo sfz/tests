@@ -1,0 +1,25 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: filters
+/// Test purpose: SPL_2P filter test
+///
+/// Test description:
+/// Play any key, move mod wheel (cc1), verify the filter cutoff increases.
+/// Send channel aftertouch messages, verify the cutoff decreases.
+///
+/// Filter resonance is assigned to cc73 
+/// Carefully hear the filter operation, verify the absence of clicks or
+/// discontinuities.
+///
+/// SPL filter (SPLit) is created by adding the out of an 2-pole allpass filter
+/// to the unprocessed input. This creates a phasing effect, with a small
+/// alteration in the frequency response.
+
+<region> 
+sample=..\[ samples ]\noise stereo.wav
+loop_mode=loop_continuous pitch_keytrack=0
+cutoff=1000 resonance_oncc73=20 volume=-6
+cutoff_oncc1=12000 cutoff_chanaft=-4000
+fil_type=spl_2p

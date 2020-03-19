@@ -1,0 +1,20 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: voice groups
+/// Test purpose: exclusive regions, unidirectional
+///
+/// Test description:
+/// Notes below c4 will cut notes above c4. Not viceversa.
+
+<region>
+sample=..\[ samples ]\110.ogg 
+hikey=b3 group=1 
+
+<region> 
+sample=..\[ samples ]\440.ogg 
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous 
+lokey=c4 offby=1
+
+

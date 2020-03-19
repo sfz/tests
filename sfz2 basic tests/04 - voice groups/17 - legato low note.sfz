@@ -1,0 +1,15 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: voice groups
+/// Test purpose: synth legato mode, low note priority
+///
+/// Test description:
+/// Play notes above c4, verify that the synth legato mode, low note priority
+/// works.
+
+
+<region> sample=..\[ samples ]\mono 400 looped.wav
+polyphony=legato_low
+lokey=c4

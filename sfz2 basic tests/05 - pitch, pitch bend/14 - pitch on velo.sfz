@@ -1,0 +1,18 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: performance parameters
+/// Test purpose: pitch on velocity
+///
+/// Test description:
+/// Play repeatedly any note, verify that one region gets a higher pitch
+/// according to the velocity of the played note.
+///
+/// This same effect can be achieved with the 'pitch_veltrack' opcode, but
+/// 'pitch_veltrack' doesn't allow to specify curves.
+
+<region>
+sample=..\[ samples ]\440.ogg
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+amp_veltrack=0 pitch_oncc131=1200

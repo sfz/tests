@@ -1,0 +1,15 @@
+//-----------------------------------------------------------------------------
+// sfz Definition File 
+// Copyright 2005 Cakewalk Music Software
+//
+//-----------------------------------------------------------------------------
+// Test group: performance parameters
+// Test purpose: sample offset on random
+//
+// Test description:
+// Play any key repeatedly, verify that a new starting point is used on
+// each new note.
+
+<region> 
+sample=..\[ samples ]\Stereo_16_44100.wav
+offset_oncc135=88200

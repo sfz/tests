@@ -1,0 +1,13 @@
+//-----------------------------------------------------------------------------
+// sfz Definition File 
+// Copyright 2005 Cakewalk Music Software
+//
+//-----------------------------------------------------------------------------
+// Test group: syntax
+// Test purpose: long filename display in the player
+//
+// Test description:
+// Just load the file and check the display.
+
+<region>
+sample=..\[ samples ]\440.ogg loop_mode=loop_continuous

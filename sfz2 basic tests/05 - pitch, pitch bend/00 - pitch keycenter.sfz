@@ -1,0 +1,22 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: performance parameters
+/// Test purpose: 'pitch_keycenter' opcode (sample root)
+///
+/// Test description:
+/// Play c4, verify it's tuned with other instruments in the set.
+///
+/// 'pitch_keycenter' instructs the player on what key will play the sample
+/// without transposing.
+///
+/// Note that while the player will read most properties from the sample file
+/// (loop start/end/length, loop count, loop direction, loop mode), the root
+/// note declared in the sample will be -ignored-.
+/// 
+/// Big thanks to the anarchic world of sample editors.
+
+<region> sample=..\[ samples ]\440.ogg  
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+pitch_keycenter=a3

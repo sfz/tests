@@ -1,0 +1,37 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: performance parameters
+/// Test purpose: pitch assigned to MIDI cc, three states
+///
+/// Test description:
+/// Play a note, use cc73 to adjust the pitch.
+/// Verify that the pitch is one octave lower with controller values lower
+/// than 64, the pitch is unchanged with controller value 64 and the pitch
+/// is one octave higher with values greater than 64.
+///
+/// Note: the sound might disappear when value 64 is sent if the two waves
+/// eventually appear out of phase.
+
+
+<group>
+sample=..\[ samples ]\440.ogg
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+bend_up=0 bend_down=0
+
+<region> // reference region
+<region> pitch_oncc73=1200 pitch_curvecc73=7
+
+
+/////////////////////////////////////////////////////////////////////////////
+/// let's create a tri-state curve
+///
+/// output is -1 for 0~63 input range
+/// output is zero when input=64
+/// output is 1 for input 1~127	
+
+<curve>
+v000=-1 v063=-1 v064=0 v065=1 v127=1
+
+

@@ -1,0 +1,20 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: decimator
+/// Test purpose: decimation amount on MIDI cc73
+///
+/// Test description:
+/// The Decimator is a samplerate-decreasing stage, generally used to add
+/// a digital harshness to the signal.
+///
+/// Press any key, move MIDI cc73. Observe the signal being distorted
+/// with increased aliasing, as the samplerate is reduced.
+
+
+<region> sample=..\[ samples ]\440.ogg
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+amp_veltrack=0
+
+decim_oncc73=100

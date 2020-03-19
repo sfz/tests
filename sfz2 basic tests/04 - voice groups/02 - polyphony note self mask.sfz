@@ -1,0 +1,26 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: voice groups
+/// Test purpose: polyphony
+///
+/// Test description:
+/// Play and hold several notes, verify that the polyphony is limited to 12
+/// notes. 
+/// Release all notes, press and hold the sustain switch. Play repeatedly any
+/// note with increased velocity, verify that the polyphony is limited to 3
+/// notes.
+///
+/// By default, repeated playback of same note has the 'self mask' feature on.
+/// With 'self mask' activated, if the incoming note has a higher velocity than
+/// any of the notes which are sounding (for the same note), the softer note
+/// will be stealed. Otherwise, the player will ignore the 'note_polyphony'
+/// limit and allocate a new voice.
+
+<region> sample=..\[ samples ]\440.ogg 
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+pitch_keycenter=a3 
+
+group=1 
+polyphony=12 note_polyphony=3

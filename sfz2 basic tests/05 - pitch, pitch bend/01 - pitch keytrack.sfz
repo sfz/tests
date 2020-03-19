@@ -1,0 +1,20 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: performance parameters
+/// Test purpose: 'pitch_keytrack' (pitch tracking)
+///
+/// Test description:
+/// Play a scale, verify the pitch grows in 1/4th of tone increments
+/// (25 cents)
+///
+/// This opcode defines the amount of pitch variation within a region, 
+/// but not the variation curve.
+/// To create microtonal or scale-based definitions, a control curve must be
+/// created by using the <curve> header (check the 'Curves' example folder).
+
+<region>
+sample=..\[ samples ]\440.ogg 
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+pitch_keycenter=63 pitch_keytrack=25

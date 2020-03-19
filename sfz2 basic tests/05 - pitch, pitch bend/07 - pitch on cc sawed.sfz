@@ -1,0 +1,53 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: performance parameters
+/// Test purpose: pitch assigned to MIDI cc, digital curve
+///
+/// Test description:
+/// Play a note, use MIDI cc73 to adjust the pitch of one region
+/// Verify a double-triangle pitch curve
+///
+/// Then use cc70 to change the pitch of same region
+/// Observe a variated similar as with cc73, but inverted and smoothed
+///
+/// Finally, use cc20 to change the pitch of the same region
+/// Verify a continuous curve in the lower half, and a semitone-stepped
+/// curve in the upper half.
+
+
+<group>
+sample=..\[ samples ]\440.ogg
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+bend_up=0 bend_down=0
+
+<region> pitch_oncc73=1200 pitch_curvecc73=7
+<region> pitch_oncc70=1200 pitch_curvecc70=8  pitch_smoothcc70=100
+<region> pitch_oncc20=1200 pitch_curvecc20=9
+
+
+/////////////////////////////////////////////////////////////////////////////
+/// double-triangle shaped curve
+
+<curve> v000=-1 v032=1 v064=-1 v096=1 v127=-1
+
+
+/////////////////////////////////////////////////////////////////////////////
+/// double-triangle shaped curve
+
+<curve> v000=1 v032=-1 v064=1 v096=-1 v127=1
+
+
+/////////////////////////////////////////////////////////////////////////////
+/// bipolar, continuous below 64, semitone stepped for 64 and above
+
+<curve>
+v000=-1
+v064=0 v068=0 v069=0.08333333 v073=0.08333333
+v074=0.1666666667 v078=0.1666666667 v079=0.25 v083=0.25
+v084=0.3333333333 v089=0.3333333333 v090=0.41666666666 v094=0.4166666666
+v095=0.5 v099=0.5
+v100=0.5833333333 v104=0.5833333333 v105=0.66666666666 v109=0.6666666666
+v110=0.75 v114=0.75 v115=0.833333333 v119=0.83333333333
+v120=0.916666666 v124=0.9166666666 v125=1 v127=1

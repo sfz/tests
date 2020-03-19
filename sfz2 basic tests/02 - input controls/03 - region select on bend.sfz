@@ -1,0 +1,15 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// test group: input controls
+/// test purpose: sample selection based on pitch bend position
+///
+/// test description:
+/// 440.ogg will play if bend wheel is in the positive range
+/// 110.ogg will play if bend wheel is in the negative range
+/// no region will play when bend is centered
+
+<group> bend_up=0 bend_down=0
+<region> sample=..\[ samples ]\440.ogg lobend=1 hibend=8192
+<region> sample=..\[ samples ]\110.ogg lobend=-8192 hibend=-1

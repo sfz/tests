@@ -1,0 +1,14 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: filters
+/// Test purpose: comb filter
+///
+/// Test description:
+/// Play any key, move mod wheel (cc1), verify the filter cutoff increases.
+
+<region> sample=..\[ samples ]\noise mono.wav
+loop_mode=loop_continuous volume=-12
+
+fil_type=comb cutoff_oncc1=20000 resonance=90

@@ -1,0 +1,46 @@
+//-----------------------------------------------------------------------------
+// sfz Definition File 
+// Copyright 2005 Cakewalk Music Software
+//
+//-----------------------------------------------------------------------------
+// Test group: syntax
+// Test purpose: special controls
+//
+// Test description:
+// Many opcodes in the sfz format allow for a 'ccN' or 'onccN' specification.
+// This allows to 'wire' the selected parameter to an input control. For
+// instance, we can wire the volume to cc7 by specifying in any region:
+//
+// volume_cc7=12 // adjusts the region volume on +12dB
+//
+// Any MIDI cc can be used when specifying a control, except for the control 0.
+// So:
+//
+// volume_oncc7=12
+// volume_oncc84=2
+// volume_oncc125=-12
+//
+// are all valid assignments, and they will -all- work for that region. So if
+// above definition is found for a region, that region will react to MIDI cc
+// 7, 84 and 125 to change its volume, and in the specified amount (later we'll
+// see that each one can also have its own step, inertia and curve adjustments).
+//
+// There are some special controls which can also be used:
+//
+// 128: Bend
+// 129: Channel Aftertouch
+// 130: Polyphonic Aftertouch
+// 131: Velocity
+// 132: Release Velocity
+// 133: Keyboard (note 0 = 0, note 127 = 1)
+// 134: Key gate (0 if no keys are pressed, 1 otherwise)
+// 135: Random (Unipolar, 0~1)
+// 136: Random (Bipolar, -1~1)
+// 137: Alternate (changes from 0 to 1 and viceversa in consecutive notes).
+//
+// All controllers can be unipolar or bipolar, according to the specified curve
+// More controls can be created for GUI controls.
+
+
+<region> sample=..\[ samples ]\440.ogg 
+pitch_oncc135=1200 // pitch on random

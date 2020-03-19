@@ -1,0 +1,15 @@
+//-----------------------------------------------------------------------------
+// sfz Definition File 
+// Copyright 2005 Cakewalk Music Software
+//
+//-----------------------------------------------------------------------------
+// Test group: syntax
+// Test purpose: testing the error logger
+//
+// Test description:
+// The '332' opcode should appear in the error log file.
+
+<region> sample=..\[ samples ]\440.ogg
+
+<curve>
+v000=0 v064=0.5 v127=0 332=1
