@@ -1,0 +1,61 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: effect sends
+/// Test purpose: sending four regions to different effect busses
+///
+/// Test description:
+/// Play any note. Four taps should play, processed as follows:
+/// 1: dry
+/// 2: hall reverb
+/// 3: hpf_2p
+/// 4: filtered stereo delay
+
+<group>
+sample=..\[ samples ]\noise.wav cutoff=1000 resonance=30
+ampeg_attack=0.02 ampeg_hold=0.1 ampeg_sustain=0 pitch_keytrack=0
+loop_mode=one_shot
+
+<region> effect1=100
+<region> effect2=100 ampeg_delay=0.5 
+<region> effect3=100 ampeg_delay=1
+<region> effect4=100 ampeg_delay=1.5
+
+
+<effect>
+directtomain=0
+fx1tomain=100
+fx2tomain=100
+fx3tomain=100
+fx4tomain=100
+
+type=fverb
+bus=fx2
+reverb_type=hall
+reverb_dry=100
+reverb_wet=50
+reverb_tone=100
+reverb_size=30
+reverb_damp=100
+
+<effect>
+type=filter
+bus=fx3
+filter_type=hpf_2p
+filter_cutoff=3000
+filter_resonance=10
+
+<effect>
+type=delay
+bus=fx4
+delay_mode=stereo
+delay_dry=100
+delay_wet=70
+delay_input=100
+delay_timel=.5
+delay_timer=.4
+delay_feedback=65
+delay_filter=lpf_2p
+delay_cutoff=6100
+delay_resonance=10

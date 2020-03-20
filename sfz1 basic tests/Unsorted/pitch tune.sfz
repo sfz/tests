@@ -1,0 +1,13 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// tuning and transpose test
+
+<region>
+sample=440.wav
+tune=100
+transpose=-1
+
+<region>
+sample=440.wav

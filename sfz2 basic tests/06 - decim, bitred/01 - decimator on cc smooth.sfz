@@ -20,7 +20,7 @@
 /// pitch bend: continuous variation (add to another control to test negative)
 /// channel aftertouch: continuous variation, medium inertia
 
-<region> sample=..\[ samples ]\440.ogg
+<region> sample=..\[ samples ]\440.wav
 loop_start=12629 loop_end=56728 loop_mode=loop_continuous
 amp_veltrack=0
 

@@ -17,5 +17,5 @@
 <region> 
 sample=..\[ samples ]\noise stereo.wav
 loop_mode=loop_continuous pitch_keytrack=0
-cutoff=100 resonance=10 resonance_oncc73=20
-cutoff_oncc1=12000 cutoff_chanaft=-4000
+cutoff=1000 resonance=10 resonance_oncc73=20
+cutoff_oncc1=8000 cutoff_chanaft=-8000

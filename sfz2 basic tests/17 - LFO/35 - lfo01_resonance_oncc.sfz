@@ -1,0 +1,18 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// LFO tests
+
+<region> sample=..\[ samples ]\noise.wav
+loop_mode=loop_continuous volume=-6
+amp_veltrack=0
+
+cutoff=1000 resonance=10 amp_veltrack=0
+
+lfo01_freq=2
+lfo01_resonance_oncc73=30
+lfo01_resonance_oncc70=30 lfo01_resonance_smoothcc70=100
+lfo01_resonance_oncc20=30 lfo01_resonance_stepcc20=15
+lfo01_resonance_oncc21=30 lfo01_resonance_smoothcc21=1000
+lfo01_resonance_oncc129=30 lfo01_resonance_smoothcc129=500

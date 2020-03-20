@@ -1,0 +1,9 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// loop points
+/// sample has loop points defined
+
+<region>
+sample=stereo looped 1k.wav

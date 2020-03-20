@@ -11,5 +11,5 @@
 // each new note.
 
 <region> 
-sample=..\[ samples ]\Stereo_16_44100.wav
+sample=..\[ samples ]\sweep.wav
 offset_oncc135=88200

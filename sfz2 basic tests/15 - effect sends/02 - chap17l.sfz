@@ -1,0 +1,32 @@
+
+<group>
+sample=..\[ samples ]\noise.wav
+loop_mode=loop_continuous pitch_keytrack=0
+amp_veltrack=0 volume=-6
+
+<region> effect1=100
+<region> effect2=100
+
+<effect>
+fx1_return=100
+fx2_return=100
+fx1_output=0
+fx2_output=0
+input=100
+dry=0
+wet=100
+//insert type
+type=filter 
+filter_type=hpf_4p 
+filter_cutoff_oncc1=12700 
+filter_resonance_oncc71=10
+
+<effect>
+bus=fx2
+input=100
+dry=0
+wet=100
+type=filter 
+filter_type=hpf_4p 
+filter_cutoff_oncc1=12700 
+filter_resonance_oncc71=10

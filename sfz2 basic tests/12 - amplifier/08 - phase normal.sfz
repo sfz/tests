@@ -1,0 +1,15 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: amplifier
+/// Test purpose: phase normal
+///
+/// Test description:
+/// Render one note, verify the start-up phase in the wave editor.
+/// It should match the phase in 'two-tone.wav'
+
+<region>
+sample=..\[ samples ]\two tone.wav
+loop_start=10336  loop_end=12100  loop_mode=loop_continuous
+phase=normal

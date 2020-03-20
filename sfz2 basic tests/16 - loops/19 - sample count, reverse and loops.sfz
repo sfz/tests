@@ -1,0 +1,17 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: loops
+/// Test purpose: sample count, reverse and overlapping loops
+///
+/// Test description:
+/// Play any key, verify:
+/// - That the sample plays in reverse
+/// - That the three overlapping loops play 8, 4 and two times respectively.
+/// - That the whole sample plays three times
+
+<region> 
+sample=..\[ samples ]\loop tests - three loops overlap.wav
+count=3
+direction=reverse

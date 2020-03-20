@@ -1,0 +1,18 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// LFO tests
+
+<region> sample=..\[ samples ]\noise.wav
+loop_mode=loop_continuous volume=-6
+amp_veltrack=0
+
+eq1_freq=2000
+
+lfo01_freq=2
+lfo01_eq1gain_oncc73=18
+lfo01_eq1gain_oncc70=18 lfo01_eq1gain_smoothcc70=100
+lfo01_eq1gain_oncc20=18 lfo01_eq1gain_stepcc20=12
+lfo01_eq1gain_oncc21=18 lfo01_eq1gain_smoothcc21=1000
+lfo01_eq1gain_oncc129=18 lfo01_eq1gain_smoothcc129=500

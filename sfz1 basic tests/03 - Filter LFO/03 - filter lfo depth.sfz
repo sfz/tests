@@ -1,0 +1,9 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// filter lfo delay
+
+<region>
+sample=..\[ samples ]\noise.wav loopmode=loop_continuous
+fillfo_freq=1 fillfo_depth=2100 cutoff=500 resonance=20

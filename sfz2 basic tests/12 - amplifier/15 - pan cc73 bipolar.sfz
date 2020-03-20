@@ -1,0 +1,28 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: amplifier
+/// Test purpose: pan on MIDI cc, bipolar curve
+///
+/// Test description:
+/// Play any key, verify that the sample is played centered in the stereo 
+/// field. Then move the MIDI cc73 to move from left to center to right.
+///
+/// Verify an equal-power pan variation (according to the MMA specified curve).
+
+<region> 
+sample=..\[ samples ]\440.wav
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous pitch_keytrack=0 
+amp_veltrack=0
+
+pan_oncc73=100 pan_curvecc73=7
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+/// let's create a bipolar control curve:
+///
+/// output range is -1 to 1 for input values 0~127
+
+<curve> v000=-1 v064=0 v127=1

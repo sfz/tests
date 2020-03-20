@@ -1,0 +1,15 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: loops
+/// Test purpose: loop direction defined (alternate)
+///
+/// Test description:
+/// Sample will loop forward, then backward continuously.
+
+<region> 
+sample=..\[ samples ]\stereo looped 1k.wav 
+loop_mode=loop_continuous
+loop_type=alternate
+loop_start=0 loop_end=44100

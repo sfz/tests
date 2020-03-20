@@ -7,7 +7,7 @@
 ///
 /// Test description:
 /// Play any key, then release it.
-/// The second region will play on note release (110.ogg).
+/// The second region will play on note release (110.wav).
 ///
 /// Verify that the release trigger plays softer if the note is held longer.
 ///
@@ -29,10 +29,12 @@
 
 
 <region>
-sample=..\[ samples ]\440.ogg
+sample=..\[ samples ]\440.wav
 loop_start=12629 loop_end=56728 loop_mode=loop_continuous
 
 <region>
-sample=..\[ samples ]\110.ogg 
+sample=..\[ samples ]\110.wav 
+loop_start=10825 loop_end=32473 loop_mode=loop_continuous
+
 trigger=release rt_decay=20
 ampeg_attack=0.4 ampeg_decay=0.4 ampeg_sustain=0

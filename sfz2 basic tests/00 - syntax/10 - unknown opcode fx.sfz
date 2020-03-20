@@ -10,7 +10,7 @@
 // The delay_hyperbolization' opcode should appear in the error log file.
 
 
-<region> sample=..\[ samples ]\440.ogg
+<region> sample=..\[ samples ]\440.wav
 
 <effect>
 type=delay

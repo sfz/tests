@@ -1,0 +1,10 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// eq2 dynamic controls
+
+<region>
+sample=noise.wav loopmode=loop_continuous
+eq2_freq=200 eq2_freqcc20=4000 eq2_bwcc21=1 eq2_gaincc22=24 
+

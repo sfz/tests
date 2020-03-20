@@ -10,9 +10,12 @@
 /// Release the sustain switch, verify the release-triggered region not playing.
 
 <region>
-sample=..\[ samples ]\440.ogg loop_mode=loop_continuous
+sample=..\[ samples ]\440.wav loop_mode=loop_continuous
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
 
 <region>
-sample=..\[ samples ]\110.ogg 
+sample=..\[ samples ]\110.wav 
+loop_start=10825 loop_end=32473 loop_mode=loop_continuous
+
 trigger=release_key
 ampeg_attack=0.1 ampeg_decay=0.4 ampeg_sustain=0

@@ -1,0 +1,10 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// loopmode is defined as loop_continuous
+/// but loopstart and loopend are not defined
+/// then whole sample is played as loop
+
+<region>
+sample=bd.wav loopmode=loop_continuous

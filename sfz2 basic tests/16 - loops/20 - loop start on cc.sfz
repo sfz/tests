@@ -1,0 +1,16 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: loops
+/// Test purpose: loop start and length on MIDI cc
+///
+/// Test description:
+/// Play and hold any key, use the MIDI cc73, cc70 and cc20
+/// to adjust sample offset, loop start and loop length in real-time.
+
+<region> 
+sample=..\[ samples ]\Stereo_16_44100.wav
+loop_start=200 loop_end=1 loop_type=alternate loop_mode=loop_continuous
+loop_start_oncc70=88200 loop_length_oncc20=30000
+offset_oncc73=88200

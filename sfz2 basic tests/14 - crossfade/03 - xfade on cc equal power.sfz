@@ -1,0 +1,22 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: crossfade
+/// Test purpose: crossfade two layers using equal power curve
+///
+/// Test description:
+/// Play any key, move mod wheel (cc1). Observe the level indicators, there 
+/// should be a level boost in the midpoint of the mod wheel range.
+///
+/// The equal-power crossfade curve is the best to crossfade between unrelated
+/// material, like two completely different samples.
+
+<group>
+sample=..\[ samples ]\440.wav 
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+amp_veltrack=0
+
+<region> xfin_locc1=0  xfin_hicc1=127
+<region> xfout_locc1=0 xfout_hicc1=127
+

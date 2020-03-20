@@ -1,0 +1,22 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: amplifier
+/// Test purpose: 'pan' opcode
+///
+/// Test description:
+/// Play any key, verify the panoramic position where the sample is played.
+/// lower than c4: left
+/// c4: centered
+/// higher than c4: right
+
+<group>
+sample=..\[ samples ]\440.wav
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous pitch_keytrack=0
+amp_veltrack=0
+
+<region> hikey=b3  pan=-100
+<region> key=c4    pan=0
+<region> lokey=c#4 pan=100
+

@@ -1,0 +1,32 @@
+ /////////////////////////////////////////////////////////////////////////////
+/// sfz definition file
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: amplifier envelope generator
+/// Test purpose: amp eg all stages on MIDI cc
+///
+/// Test description:
+/// Play repeatedly any note, while adjusting the following MIDI controls:
+///
+/// cc20: delay time, 0~10s
+/// cc21: start level, 0~100%
+/// cc22: attack time, 0~10s
+/// cc23: hold time, 0~10s
+/// cc24: decay time, 0~10s
+/// cc25: sustain level, 0~100%
+/// cc26: release time, 0~10s
+
+
+<region>
+sample=..\[ samples ]\440.wav
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+amp_veltrack=0
+
+ampeg_delay_oncc20=10
+ampeg_start_oncc21=100
+ampeg_attack_oncc22=10
+ampeg_hold_oncc23=10
+ampeg_decay_oncc24=10
+ampeg_sustain=0 
+ampeg_sustain_oncc25=100
+ampeg_release_oncc26=10

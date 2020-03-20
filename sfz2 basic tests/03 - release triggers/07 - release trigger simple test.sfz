@@ -9,5 +9,5 @@
 /// Play d4, nothing plays. Now play c4, verify the noise playing.
 /// Release d4, verify the hihat plays.
 
-<region> key=c4 sample=..\[ samples ]\noise.ogg 
-<region> key=d4 sample=..\[ samples ]\hh.ogg trigger=release_key rt_dead=on
+<region> key=c4 sample=..\[ samples ]\noise.wav 
+<region> key=d4 sample=..\[ samples ]\hh.wav trigger=release_key rt_dead=on

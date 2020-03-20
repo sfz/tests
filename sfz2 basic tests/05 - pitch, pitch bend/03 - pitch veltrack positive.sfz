@@ -10,6 +10,6 @@
 /// according to the velocity of the played note.
 
 <region>
-sample=..\[ samples ]\440.ogg
+sample=..\[ samples ]\440.wav
 loop_start=12629 loop_end=56728 loop_mode=loop_continuous
 pitch_oncc131=1200

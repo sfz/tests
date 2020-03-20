@@ -1,0 +1,21 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: amplifier
+/// Test purpose: pan on MIDI cc
+///
+/// Test description:
+/// Play any key, verify that the sample is played centered in the stereo 
+/// field. Then move the MIDI cc20 to move it to the right.
+///
+/// Verify an equal-power pan variation (according to the MMA specified curve).
+
+<region> 
+sample=..\[ samples ]\440.wav
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous pitch_keytrack=0 
+amp_veltrack=0
+
+pan_oncc73=100
+
+

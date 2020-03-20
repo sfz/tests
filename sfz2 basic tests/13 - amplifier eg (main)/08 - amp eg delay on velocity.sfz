@@ -1,0 +1,15 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: amplifier envelope generator
+/// Test purpose: amp eg delay on velocity
+///
+/// Test description:
+/// Play repeatedly any note with increased velocity, verify that the delay
+/// time is shorter each new note.
+
+<region>
+sample=..\[ samples ]\440.wav 
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+ampeg_delay=1 ampeg_delay_oncc131=-1 ampeg_attack=0.02 amp_veltrack=0

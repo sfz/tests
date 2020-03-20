@@ -1,0 +1,2 @@
+<region> lokey=36 hikey=36 pitch_keycenter=36 sample=noise.wav 
+<region> lokey=38 hikey=38 pitch_keycenter=38 sample=hh.wav trigger=release

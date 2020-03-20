@@ -1,0 +1,23 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// exclusive regions, unidirectional, two regions
+/// notes below middle C will turn off only one region 
+/// for notes above middle C
+
+<region> 
+lokey=0 hikey=59 sample=110.wav
+group=1 
+
+<region> 
+lokey=60 hikey=127 sample=440.wav 
+loopstart=12629 loopend=56728 loopmode=loop_continuous 
+group=2
+
+<region> 
+lokey=60 hikey=127 sample=440.wav
+transpose=7
+loopstart=12629 loopend=56728 loopmode=loop_continuous 
+offby=1
+

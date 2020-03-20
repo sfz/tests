@@ -1,0 +1,10 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// pitch eg vel2hold
+
+<region>
+sample=..\[ samples ]\440.wav 
+loopstart=12629 loopend=56728 loopmode=loop_continuous amp_veltrack=0
+pitcheg_vel2hold=2 pitcheg_sustain=0 pitcheg_depth=1200

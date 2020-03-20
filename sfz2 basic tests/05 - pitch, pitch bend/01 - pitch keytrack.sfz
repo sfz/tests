@@ -15,6 +15,6 @@
 /// created by using the <curve> header (check the 'Curves' example folder).
 
 <region>
-sample=..\[ samples ]\440.ogg 
+sample=..\[ samples ]\440.wav 
 loop_start=12629 loop_end=56728 loop_mode=loop_continuous
 pitch_keycenter=63 pitch_keytrack=25

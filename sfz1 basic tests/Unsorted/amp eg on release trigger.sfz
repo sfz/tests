@@ -1,0 +1,14 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// amplifier eg on release trigger sample
+/// 110 will play on release
+
+<region>
+sample=440.wav
+
+<region>
+sample=110.wav trigger=release 
+//rtdecay=6.5
+//ampeg_attack=0.4 ampeg_decay=0.4 ampeg_sustain=0

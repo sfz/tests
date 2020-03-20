@@ -1,0 +1,17 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// exclusive regions, unidirectional
+/// notes below middle C will cut notes above middle C
+
+<region> 
+lokey=0 hikey=59 sample=110.wav
+group=1 
+
+<region> 
+lokey=60 hikey=127 sample=440.wav 
+loopstart=12629 loopend=56728 loopmode=loop_continuous 
+offby=1
+
+

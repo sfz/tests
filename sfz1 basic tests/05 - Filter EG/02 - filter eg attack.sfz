@@ -1,0 +1,9 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// 
+
+<region>
+sample=..\[ samples ]\noise.wav cutoff=250 resonance=40 volume=-6 loop_mode=loop_continuous
+fileg_attack=1 fileg_depth=1200

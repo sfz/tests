@@ -9,7 +9,7 @@
 // Test description:
 // The '332' opcode should appear in the error log file.
 
-<region> sample=..\[ samples ]\440.ogg
+<region> sample=..\[ samples ]\440.wav
 
 <curve>
 v000=0 v064=0.5 v127=0 332=1

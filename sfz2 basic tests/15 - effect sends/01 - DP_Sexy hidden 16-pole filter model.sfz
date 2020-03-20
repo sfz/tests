@@ -1,0 +1,40 @@
+ //from http://sonar.sonarama.com/index.php?title=Dimension_16_Pole_Filter
+ 
+ <region>
+ sample=..\[ samples ]\noise.wav
+ loop_mode=loop_continuous
+ 
+ 
+ // filter r 
+ <effect> 
+ //directtomain=100 
+ type=filter 
+ filter_type=lpf_4p 
+ filter_cutoff_oncc1=12700 
+ filter_resonance_oncc71=10
+
+ // filter o 
+ <effect> 
+ //directtomain=100 
+ type=filter 
+ filter_type=lpf_4p 
+ filter_cutoff_oncc1=12700 
+ filter_resonance_oncc71=10
+
+ // filter c 
+ <effect> 
+ //directtomain=100 
+ type=filter 
+ filter_type=lpf_4p 
+ filter_cutoff_oncc1=12700 
+ filter_resonance_oncc71=10 
+
+ // filter k 
+ <effect> 
+ //directtomain=100 
+ type=filter 
+ filter_type=lpf_4p 
+ filter_cutoff_oncc1=12700 
+ filter_resonance_oncc71=10 
+
+

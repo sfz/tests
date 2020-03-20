@@ -28,12 +28,11 @@
 //
 // <region> sample=xxx.wav lokey=d#3 hikey=e4 pitch_keycenter=d#3
 //
-// The 'key' opcode is an 'exception' opcode, same as the <group> header. 
+// The 'key' opcode is an 'exeption' opcode, same as the <group> header. 
 // From a strict semantics point of view, its functionality can be achieved
-// using other opcodes. 
-// However, it has a superb efficiency in keeping the file readability 
-// while preserving the file text minimalistic. 
+// using other opcodes. However, it has maximum efficiency in keeping the
+// file readability while being minimalistic, in an extremely used case. 
 // Therefore it's in.
 
-<region> sample=..\[ samples ]\440.ogg key=d#3
+<region> sample=..\[ samples ]\440.wav key=d#3
 

@@ -1,0 +1,18 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: compressor
+/// Test purpose: compressor, mono
+///
+/// Test description:
+/// Render one note, verify the compressor working in a wave editor.
+
+<region> 
+sample=..\[ samples ]\compressor test mono.wav
+loop_mode=loop_continuous
+
+comp_threshold=-6
+comp_ratio=50
+comp_attack=.05
+comp_release=.05

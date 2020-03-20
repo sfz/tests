@@ -1,0 +1,22 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: amplifier envelope generator
+/// Test purpose: amp eg delay
+///
+/// Test description:
+/// Each region in sfz has a main AHDSR, samplerate driven amplifier enve-
+/// lope generator. This generator is present in all regions, and allows for 
+/// simple, fast and precise volume vs. time manipulations. 
+/// For more complex control, any of the 16 flexible envelope generators can be
+/// additionally sused to modulate the region volume.
+///
+/// Play any note, verify that the delay before the note starts is one second.
+
+<region>
+sample=..\[ samples ]\440.wav 
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+
+amp_veltrack=0
+ampeg_delay=1 ampeg_attack=0.02

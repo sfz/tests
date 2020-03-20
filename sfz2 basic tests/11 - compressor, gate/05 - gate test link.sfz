@@ -1,0 +1,19 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: gate
+/// Test purpose: gate, stereo linked
+///
+/// Test description:
+/// Render one note, verify the gate effect in a wave editor.
+/// Measure the attack and release times.
+
+<region> 
+sample=..\[ samples ]\compressor test link.wav
+loop_mode=loop_continuous
+
+gate_stlink=on
+gate_threshold=-6
+gate_attack=.05
+gate_release=.05

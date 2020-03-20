@@ -1,0 +1,16 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: amplifier
+/// Test purpose: amplifier velocity curve
+///
+/// Test description:
+/// Plot the velocity/volume curve, compare against the graph.
+///
+/// resulting curve:
+/// http://www.rgcaudio.com/sfzsamples/velcurvetest.gif
+
+<region>
+sample=..\[ samples ]\440.wav
+amp_velcurve_20=0.5 amp_velcurve_90=0.85

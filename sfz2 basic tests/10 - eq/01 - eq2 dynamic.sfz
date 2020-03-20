@@ -1,0 +1,29 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: eq
+/// Test purpose: eq parameters on cc
+///
+/// Test description:
+/// Use cc73, cc70 and cc20 to set the Frequency, Cutoff and Gain of the 
+/// second parametric equalizer band.
+///
+/// Frequency starts in 200Hz, and it variates two octaves up
+/// Bandwidth starts in 1 octave, and variates up to two octaves
+/// Gain starts at 6dB, and variates up to 24dB
+///
+/// Note that is is a -voice level- eq, so each band parameters can be modulated
+/// by local voice modulators (velocity, LFO, Step Sequencer, EG, Envelope
+/// Follower, etc).
+///
+/// Unlike in other samplers, the eq in sfz is a separated from the filters stage
+/// so it's possible to combine the filters and equalizer in the same voice.
+
+<region>
+sample=..\[ samples ]\noise.wav loop_mode=loop_continuous
+
+eq2_freq=200   eq2_freq_oncc73=2400
+eq2_bw=1       eq2_bw_oncc70=1 
+eq2_gain=6     eq2_gain_oncc20=18
+

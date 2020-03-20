@@ -1,0 +1,15 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: amplifier envelope generator
+/// Test purpose: amp eg decay on velocity
+///
+/// Test description:
+/// Play repeatedly any note with increased velocity, verify that the decay
+/// time is shorter each new note.
+
+<region>
+sample=..\[ samples ]\440.wav
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+ampeg_decay=2 ampeg_decay_oncc131=-2 ampeg_sustain=0  amp_veltrack=0

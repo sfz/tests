@@ -1,0 +1,29 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// if last: switches (keys 48~52)
+
+<region>
+sample=440.wav
+lokey=60 sw_lokey=48 sw_hikey=52 sw_last=c3
+
+
+<region>
+sample=110.wav
+lokey=60 sw_lokey=48 sw_hikey=52 sw_last=49
+
+
+<region>
+sample=noise.wav
+lokey=60 sw_lokey=48 sw_hikey=52 sw_last=50
+
+
+<region>
+sample=bd.wav
+lokey=60 sw_lokey=48 sw_hikey=52 sw_last=51
+
+
+<region>
+sample=hh.wav
+lokey=60 sw_lokey=48 sw_hikey=52 sw_last=52

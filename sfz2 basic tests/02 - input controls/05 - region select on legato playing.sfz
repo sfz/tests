@@ -6,9 +6,9 @@
 /// Test purpose: sample selection on legato playing
 ///
 /// Test description:
-/// Play several notes staccatto: 440.ogg will play untransposed.
+/// Play several notes staccatto: 440.wav will play untransposed.
 /// Play several notes legato (new note is pressed before last one is
-/// released). 440.ogg will play untransposed the first note, but
+/// released). 440.wav will play untransposed the first note, but
 /// it'll play one octave down for the legato notes.
 ///
 /// This approach makes extremely simple to select samples for true legato
@@ -19,7 +19,7 @@
 
 
 <group>
-sample=..\[ samples ]\440.ogg
+sample=..\[ samples ]\440.wav
 loop_start=12629 loop_end=56728 loop_mode=loop_continuous 
 group=1 polyphony=1
 

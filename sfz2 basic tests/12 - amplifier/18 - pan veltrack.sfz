@@ -1,0 +1,19 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: amplifier
+/// Test purpose: pan velocity tracking
+///
+/// Test description:
+/// Play any note repeatedly with increased velocity. Verify that the pan
+/// position moves more to the right with each new note.
+
+<region> 
+sample=..\[ samples ]\440.wav
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous pitch_keytrack=0 
+amp_veltrack=0
+
+pan_veltrack=100
+
+

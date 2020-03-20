@@ -1,0 +1,16 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// LFO tests
+
+<region> sample=..\[ samples ]\mono silence.wav
+loop_mode=loop_continuous
+
+amp_veltrack=0
+noise_level=0
+noise_filter=lpf_2p
+noise_tone_oncc73=100
+
+lfo01_freq=1
+lfo01_noisetone=100

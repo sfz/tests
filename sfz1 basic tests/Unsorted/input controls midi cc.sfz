@@ -1,0 +1,11 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// MIDI controllers as input controls
+/// region will play if MIDI controller 74 value is in the 64~90 range
+/// AND if MIDI controller 1 (mod wheel) is in the 0~30 range
+
+<region>
+sample=440.wav
+locc74=64 hicc74=90 locc1=0 hicc1=30

@@ -1,0 +1,78 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// note delay
+
+<region>
+sample=440.wav ampeg_hold=0.25 ampeg_sustain=0
+loopstart=12629 loopend=56728 loopmode=loop_continuous
+
+<region>
+sample=440.wav delay=0.25 ampeg_hold=0.25 ampeg_sustain=0
+loopstart=12629 loopend=56728 loopmode=loop_continuous
+transpose=2
+
+<region>
+sample=440.wav delay=0.5 ampeg_hold=0.25 ampeg_sustain=0
+loopstart=12629 loopend=56728 loopmode=loop_continuous
+transpose=4
+
+<region>
+sample=440.wav delay=0.75 ampeg_hold=0.25 ampeg_sustain=0
+loopstart=12629 loopend=56728 loopmode=loop_continuous
+transpose=7
+
+<region>
+sample=440.wav delay=1 ampeg_hold=0.25 ampeg_sustain=0
+loopstart=12629 loopend=56728 loopmode=loop_continuous
+transpose=5
+
+<region>
+sample=440.wav delay=1.25 ampeg_hold=0.25 ampeg_sustain=0
+loopstart=12629 loopend=56728 loopmode=loop_continuous
+transpose=5
+
+<region>
+sample=440.wav delay=1.5 ampeg_hold=0.25 ampeg_sustain=0
+loopstart=12629 loopend=56728 loopmode=loop_continuous
+transpose=9
+
+<region>
+sample=440.wav delay=1.75 ampeg_hold=0.25 ampeg_sustain=0
+loopstart=12629 loopend=56728 loopmode=loop_continuous
+transpose=7
+
+<region>
+sample=440.wav delay=2 ampeg_hold=0.25 ampeg_sustain=0
+loopstart=12629 loopend=56728 loopmode=loop_continuous
+transpose=7
+
+<region>
+sample=440.wav delay=2.25 ampeg_hold=0.25 ampeg_sustain=0
+loopstart=12629 loopend=56728 loopmode=loop_continuous
+transpose=12
+
+<region>
+sample=440.wav delay=2.5 ampeg_hold=0.25 ampeg_sustain=0
+loopstart=12629 loopend=56728 loopmode=loop_continuous
+transpose=11
+
+<region>
+sample=440.wav delay=2.75 ampeg_hold=0.25 ampeg_sustain=0
+loopstart=12629 loopend=56728 loopmode=loop_continuous
+transpose=12
+
+<region>
+sample=440.wav delay=3 ampeg_hold=0.25 ampeg_sustain=0
+loopstart=12629 loopend=56728 loopmode=loop_continuous
+transpose=7
+
+<region>
+sample=440.wav delay=3.25 ampeg_hold=0.25 ampeg_sustain=0
+loopstart=12629 loopend=56728 loopmode=loop_continuous
+transpose=4
+
+<region>
+sample=440.wav delay=3.5 ampeg_hold=0.25 ampeg_sustain=0
+loopstart=12629 loopend=56728 loopmode=loop_continuous

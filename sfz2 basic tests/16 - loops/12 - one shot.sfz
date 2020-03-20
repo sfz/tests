@@ -1,0 +1,16 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: loops
+/// Test purpose: one-shot sample playing
+///
+/// Test description:
+/// Play any key and release it immediately. Verify that the sample plays
+/// till the end (1s), regardless of the time the key is pressed.
+
+<region> 
+sample=..\[ samples ]\sweep.wav
+volume=-6
+loop_mode=one_shot
+pitch_keytrack=0

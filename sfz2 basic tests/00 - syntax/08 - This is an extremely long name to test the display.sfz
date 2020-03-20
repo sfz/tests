@@ -7,7 +7,8 @@
 // Test purpose: long filename display in the player
 //
 // Test description:
-// Just load the file and check the display.
+// Just load the file and check the display. The name should be truncated
+// and three dots should appear (This is an extremely long name to ...)
 
 <region>
-sample=..\[ samples ]\440.ogg loop_mode=loop_continuous
+sample=..\[ samples ]\440.wav loop_mode=loop_continuous

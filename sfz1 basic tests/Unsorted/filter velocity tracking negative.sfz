@@ -1,0 +1,10 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// filter velocity tracking
+/// play same note with different velocities
+
+<region>
+sample=noise.wav cutoff=3000 resonance=40  loopmode=loop_continuous
+fil_veltrack=-2400

@@ -1,0 +1,9 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// pitch lfo frequency on cc1 and channel aftertouch
+
+<region>
+sample=..\[ samples ]\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous
+pitchlfo_freq=2 pitchlfo_freqcc1=-2 pitchlfo_freqchanaft=2 pitchlfo_depth=600

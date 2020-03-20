@@ -20,7 +20,7 @@
 /// The test uses the default LPF_2P filter.
 
 <group>
-sample=..\[ samples ]\noise.ogg
+sample=..\[ samples ]\noise.wav
 loop_mode=loop_continuous pitch_keytrack=0
 resonance=30 cutoff=100
 amp_veltrack=0 volume=-6

@@ -11,6 +11,6 @@
 /// and in one-octave steps when moving down
 
 <region>
-sample=..\[ samples ]\440.ogg
+sample=..\[ samples ]\440.wav
 loop_start=12629 loop_end=56728 loop_mode=loop_continuous
 bend_up=1200 bend_down=-9600 bend_stepup=100 bend_stepdown=1200

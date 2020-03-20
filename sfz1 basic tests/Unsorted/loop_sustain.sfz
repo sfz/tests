@@ -1,0 +1,9 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// loop_continuous
+
+<region>
+sample=sweep.wav pitch_keytrack=0 loopmode=loop_sustain
+loopstart=9460 loopend=33857 ampeg_release=10

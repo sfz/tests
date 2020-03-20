@@ -6,12 +6,12 @@
 /// Test purpose: sample selection based on previous note
 ///
 /// Test description:
-/// bd.ogg will only play if last played note was c4 (MIDI note 60).
+/// bd.wav will only play if last played note was c4 (MIDI note 60).
 ///
 /// This is very handy to select a sample based on the played interval,
 /// for instance, when playing c4 and then f4 the player could trigger
 /// a real sample of a violin player doing the c4~f4 interval for utmost
 /// realism (vsl-like legato playing).
 
-<region> sample=..\[ samples ]\bd.ogg 
+<region> sample=..\[ samples ]\bd.wav 
 sw_previous=60

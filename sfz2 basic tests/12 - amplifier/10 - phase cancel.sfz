@@ -1,0 +1,20 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: amplifier
+/// Test purpose: perfect phase cancellation
+///
+/// Test description:
+/// This test makes two region to play out-of-phase. As a result, both regions
+/// must cancel perfectly resulting in digital silence.
+///
+/// Observe the quality of resulting silence.
+
+<group>
+sample=..\[ samples ]\two tone.wav
+loop_start=10336  loop_end=12100  loop_mode=loop_continuous
+volume=30
+
+<region> phase=normal
+<region> phase=invert

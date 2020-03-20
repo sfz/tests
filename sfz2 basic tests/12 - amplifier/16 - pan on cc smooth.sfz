@@ -1,0 +1,36 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: amplifier
+/// Test purpose: pan on MIDI cc, smoothing
+///
+/// Test description:
+/// Play any key, and use MIDI cc73, cc70, cc20, and cc21
+/// to position the region in the stereo field.
+///
+/// Set all controls centered before testing.
+///
+/// cc73: continuous variation
+/// cc70: continuous variation, small inertia
+/// cc20: stepped variation, two steps
+/// cc21: continuous variation, big inertia
+
+<group>
+sample=..\[ samples ]\440.wav
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+amp_veltrack=0
+
+<region> 
+pan_oncc73=100  pan_smoothcc73=1     pan_curvecc73=7
+pan_oncc70=100  pan_smoothcc70=100   pan_curvecc70=7	
+pan_oncc20=100  pan_stepcc20=50	     pan_curvecc20=7		
+pan_oncc21=100  pan_smoothcc21=500   pan_curvecc21=7
+
+
+/////////////////////////////////////////////////////////////////////////////
+/// let's create a bipolar control curve:
+///
+/// output range is -1 to 1 for input values 0~127
+
+<curve> curve_index=7 v000=-1 v064=0 v127=1

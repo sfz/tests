@@ -1,0 +1,20 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: compressor
+/// Test purpose: compressor, stereo link
+///
+/// Test description:
+/// Render one note, verify the compressor working in a wave editor.
+/// Observe that both channels are affected due the stereo link.
+
+<region> 
+sample=..\[ samples ]\compressor test link.wav
+loop_mode=loop_continuous
+
+comp_stlink=on
+comp_threshold=-9
+comp_ratio=50
+comp_attack=.05
+comp_release=.05

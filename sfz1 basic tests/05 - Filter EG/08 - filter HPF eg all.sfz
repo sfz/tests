@@ -1,0 +1,11 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// filter HPF eg all
+
+<region>
+sample=..\[ samples ]\noise.wav cutoff=1000 resonance=40 volume=-6 loopmode=loop_continuous
+ampeg_release=5
+filtype=hpf_2p
+fileg_attack=.5 fileg_depth=-1200 fileg_hold=.5 fileg_decay=.5 fileg_sustain=60 fileg_release=.5

@@ -1,0 +1,9 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// filter eg vel2hold
+
+<region>
+sample=..\[ samples ]\noise.wav cutoff=250 resonance=40 volume=-6 amp_veltrack=0 loopmode=loop_continuous
+fileg_vel2hold=2 fileg_sustain=0 fileg_depth=1200

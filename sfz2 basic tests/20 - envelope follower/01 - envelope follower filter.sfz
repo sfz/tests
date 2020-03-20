@@ -1,0 +1,14 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// envelope follower tests
+
+<region>
+sample=..\[ samples ]\Mono_16_44100.wav
+fil_type=lpf_2p cutoff=100 resonance=20
+
+eg01_follow_attack=0 eg01_follow_release=0.5 
+eg01_follow_speed=20
+eg01_follow_gain=15
+eg01_cutoff=9600

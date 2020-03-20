@@ -7,11 +7,12 @@
 // Test purpose: basic two-regions layered
 //
 // Test description:
-// 440.ogg will play in the whole keyboard in two layers
+// 440.wav will play in the whole keyboard in two layers
 // with one octave shift
 
 <group>
-sample=..\[ samples ]\440.ogg
+sample=..\[ samples ]\440.wav
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
 
 <region> 
 <region> transpose=12

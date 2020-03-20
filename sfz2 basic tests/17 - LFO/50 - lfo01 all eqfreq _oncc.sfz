@@ -1,0 +1,34 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// LFO tests
+
+<region> sample=..\[ samples ]\noise.wav
+loop_mode=loop_continuous
+volume=-6
+eq1_gain=18
+eq2_gain=18
+eq3_gain=18
+eq1_freq=100
+eq2_freq=400
+eq3_freq=800
+
+lfo01_freq=2
+lfo01_eq1freq_oncc73=200
+lfo01_eq1freq_oncc70=200 lfo01_eq1freq_smoothcc70=100
+lfo01_eq1freq_oncc20=200 lfo01_eq1freq_stepcc20=51
+lfo01_eq1freq_oncc21=200 lfo01_eq1freq_smoothcc21=1000
+lfo01_eq1freq_oncc129=200 lfo01_eq1freq_smoothcc129=500
+
+lfo01_eq2freq_oncc73=800
+lfo01_eq2freq_oncc70=800 lfo01_eq2freq_smoothcc70=100
+lfo01_eq2freq_oncc20=800 lfo01_eq2freq_stepcc20=401
+lfo01_eq2freq_oncc21=800 lfo01_eq2freq_smoothcc21=1000
+lfo01_eq2freq_oncc129=800 lfo01_eq2freq_smoothcc129=500
+
+lfo01_eq3freq_oncc73=1600
+lfo01_eq3freq_oncc70=1600 lfo01_eq3freq_smoothcc70=100
+lfo01_eq3freq_oncc20=1600 lfo01_eq3freq_stepcc20=801
+lfo01_eq3freq_oncc21=1600 lfo01_eq3freq_smoothcc21=1000
+lfo01_eq3freq_oncc129=1600 lfo01_eq3freq_smoothcc129=500

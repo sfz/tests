@@ -1,0 +1,10 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// amp lfo delay
+
+<region>
+sample=..\[ samples ]\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous
+amplfo_delay=0.5 amplfo_fade=1 amplfo_freq=5 amplfo_depth=12
+volume=-12

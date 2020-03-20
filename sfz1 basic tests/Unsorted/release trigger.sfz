@@ -1,0 +1,13 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// release trigger
+/// 110 will play on release with
+/// release triggered region volume will drop 6.5dB/second since note-on
+
+<region>
+sample=440.wav
+
+<region>
+sample=110.wav trigger=release rtdecay=6.5

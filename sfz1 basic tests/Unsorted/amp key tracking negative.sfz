@@ -1,0 +1,8 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// amplifier keyboard tracking (negative)
+
+<region>
+sample=440.wav amp_keycenter=60 amp_keytrack=-1 volume=-10

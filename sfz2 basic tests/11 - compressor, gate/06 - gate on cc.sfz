@@ -1,0 +1,23 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: gate
+/// Test purpose: gate on MIDI cc
+///
+/// Test description:
+/// Play any note, press sustain switch (MIDI cc64).
+/// Verify that the high-pitched region is muted by the gate effect.
+/// Release sustain switch, verify that the region appears again.
+
+<group>
+sample=..\[ samples ]\440.wav
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+
+<region>
+<region>
+transpose=12 
+gate_threshold=-20
+gate_attack=.0
+gate_release=.0
+gate_oncc64=100

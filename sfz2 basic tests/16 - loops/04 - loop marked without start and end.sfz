@@ -1,0 +1,16 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: loops
+/// Test purpose: loop mode defined without loop_start/loop_end
+///
+/// Test description:
+/// Play any note, the whole sample should play looped.
+/// This is due the loop mode was specified as 'loop_continuous', and the loop
+/// start and end were not specified, nor were defined in the sample.
+/// The player then loops the whole sample.
+
+<region>
+sample=..\[ samples ]\bd.wav
+loop_mode=loop_continuous

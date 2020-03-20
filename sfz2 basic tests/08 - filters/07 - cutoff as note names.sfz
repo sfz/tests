@@ -1,0 +1,28 @@
+<group> 
+sample=*silence loop_start=1 loop_end=100 loop_mode=loop_continuous
+
+noise_filter=pink
+noise_level=10
+noise_step=0
+noise_tone=100
+
+fil_type=lpf_2p
+cutoff_oncc150=0
+resonance=96
+
+
+
+<region> key=c4 cutoff=c4
+<region> key=d4 cutoff=d4
+<region> key=e4 cutoff=e4
+<region> key=f4 cutoff=f4
+<region> key=g4 cutoff=g4
+<region> key=a4 cutoff=a4
+<region> key=b4 cutoff=b4
+<region> key=c5 cutoff=c5
+
+
+
+
+<effect>
+type=limiter

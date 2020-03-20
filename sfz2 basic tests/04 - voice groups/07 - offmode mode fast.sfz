@@ -15,12 +15,12 @@
 /// being instantaneously cut.
 
 <region>
-sample=..\[ samples ]\noise.ogg loop_mode=loop_continuous pitch_keytrack=0
+sample=..\[ samples ]\noise.wav loop_mode=loop_continuous pitch_keytrack=0
 ampeg_release=10
 lokey=c4
 off_by=1 off_mode=fast
 
 <region> 
-sample=..\[ samples ]\440.ogg
+sample=..\[ samples ]\440.wav
 hikey=b3
 group=1

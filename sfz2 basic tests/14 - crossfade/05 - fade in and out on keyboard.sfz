@@ -1,0 +1,21 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: crossfade
+/// Test purpose: fade in and out on keyboard ranges
+///
+/// Test description:
+/// play a scale from c3 to c4, observe the fade-in on the sample.
+/// play a scale from c4 to c5, verify that the sample level remains unchanged.
+/// play a scale from c5 to c6, observe the fade-out on the sample.
+
+
+<region>
+sample=..\[ samples ]\440.wav
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+amp_veltrack=0
+
+xfin_lokey=c3 xfin_hikey=c4
+xfout_lokey=c5 xfout_hikey=c6
+

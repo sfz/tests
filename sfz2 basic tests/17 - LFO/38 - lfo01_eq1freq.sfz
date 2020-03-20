@@ -1,0 +1,15 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// LFO tests
+
+<region> sample=..\[ samples ]\noise.wav
+loop_mode=loop_continuous volume=-6
+amp_veltrack=0
+
+eq1_gain=12
+eq1_freq=3000
+
+lfo01_freq=2
+lfo01_eq1freq=3000

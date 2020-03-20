@@ -7,6 +7,6 @@
 // Test purpose: test a file with one region and no final CR/LF
 //
 // Test description:
-// Load the file, 440.ogg will play
+// Load the file, 440.wav will play
 
-<region> sample=..\[ samples ]\440.ogg
+<region> sample=..\[ samples ]\440.wav

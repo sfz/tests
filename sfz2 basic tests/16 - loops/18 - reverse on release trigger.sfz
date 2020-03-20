@@ -1,0 +1,17 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: loops
+/// Test purpose: sample reverse on release trigger
+///
+/// Test description:
+/// Play any note, verify the sample plays. Once the note is released, observe
+/// the sample playing in reverse.
+
+<group> 
+sample=..\[ samples ]\bd.wav
+
+
+<region> loop_mode=loop_continuous 
+<region> direction=reverse trigger=release

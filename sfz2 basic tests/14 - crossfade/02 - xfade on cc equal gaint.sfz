@@ -1,0 +1,26 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: crossfade
+/// Test purpose: crossfade two layers using equal gain curve
+///
+/// Test description:
+/// Play any key, move mod wheel (cc1). Observe the level indicators, the 
+/// level should remain constant during the whole mod wheel range.
+///
+/// This crossfade curve is best suited to crossfade between phase-aligned
+/// material (as in this case). For instance, a piano and a mezzo piano layers
+/// of a violin, once the samples have been edited for phase coherence.
+/// The resulting gain will be constant. 
+
+
+<group>
+sample=..\[ samples ]\440.wav 
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+amp_veltrack=0
+xf_cccurve=gain
+
+<region> xfin_locc1=0  xfin_hicc1=127
+<region> xfout_locc1=0 xfout_hicc1=127
+

@@ -1,0 +1,19 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: loops
+/// Test purpose: loop points from mono wav
+///
+/// Test description:
+/// Play and hold any note. The sample should play continuously, as the wave
+/// file has a loop defined.
+///
+/// The player will get the loop information from the wave file for the first
+/// sixteen loops, including:
+/// - loop start
+/// - lool end (loop length)
+/// - loop count (number of times the loop must be played)
+/// - loop direction (forward, backward, alternate)
+
+<region> sample=..\[ samples ]\mono looped 1k.wav

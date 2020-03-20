@@ -1,0 +1,15 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// trigger=legato
+
+<region>
+sample=440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous 
+trigger=legato 
+group=1 offby=1
+
+<region>
+sample=440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous transpose=-12 
+trigger=first
+group=1 offby=1

@@ -1,0 +1,15 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// tuning and transpose test
+
+<region>
+tune=100
+transpose=-1
+
+// this is a comment line
+sample=440.wav
+
+// this is another
+bendup=1200

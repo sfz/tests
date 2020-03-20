@@ -16,4 +16,4 @@
 sample=..\[ samples ]\noise stereo.wav
 loop_mode=loop_continuous pitch_keytrack=0
 fil_type=bpf_1p volume=6
-cutoff=1000 cutoff_oncc1=12000 cutoff_chanaft=-4000
+cutoff=1000 cutoff_oncc1=8000 cutoff_chanaft=-8000

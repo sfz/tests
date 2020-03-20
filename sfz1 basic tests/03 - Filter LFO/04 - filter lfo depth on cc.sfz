@@ -1,0 +1,15 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// filter lfo depth on MIDI modwheel and breath
+
+<region>
+sample=..\[ samples ]\noise.wav loopmode=loop_continuous
+fillfo_freq=2 cutoff=1000 resonance=40 volume=-10
+fillfo_depthcc1=400
+
+<region>
+sample=..\[ samples ]\noise.wav loopmode=loop_continuous
+fillfo_freq=5 cutoff=1000 resonance=40 volume=-10
+fillfo_depthcc2=400

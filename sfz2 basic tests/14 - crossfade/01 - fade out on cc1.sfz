@@ -1,0 +1,18 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: crossfade
+/// Test purpose: fade out on MIDI cc
+///
+/// Test description:
+/// Play any key, the sample will play. Gradually move the mod wheel (cc1)
+/// and verify the fade-out operation on the sample.
+
+
+<region>
+sample=..\[ samples ]\440.wav
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+amp_veltrack=0
+
+xfout_locc1=0 xfout_hicc1=127

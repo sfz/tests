@@ -1,0 +1,38 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: amplifier
+/// Test purpose: width and position
+///
+/// Test description:
+/// Play keys c4 to a4, verify the following behavior:
+///
+/// c4: sample is played in mono, centered. No volume correction is performed
+///     so combining the width effect with the volume effect both equal gain 
+///     and equal power compensations are possible.
+///
+/// d4: sample is played in stereo, centered
+/// e4: sample is played in mono, in right channel
+/// f4: sample is played in mono, in left channel
+/// g4: sample is played with a reduced stereo width, slightly to the right
+/// a4: sample is played with a reduced stereo width, slightly to the left
+/// b4: sample is played in 'enhanced stereo', centered
+///
+/// 'Enhanced Stereo' (as it's called in other samples) uses the old, cheap
+/// but effective trick used in 1970 tape recorders of injecting to one channel
+/// part of the other channel out of phase. This results in a wider stereo image
+///
+/// Don't use it on bass samples. Wide but weak.
+
+<group>
+sample=..\[ samples ]\two tone.wav loop_start=10336  loop_end=12100  loop_mode=loop_continuous pitch_keytrack=0 
+amp_veltrack=0
+
+<region> key=c4 width=0   position=0    
+<region> key=d4 width=100 position=0    
+<region> key=e4 width=0   position=100  
+<region> key=f4 width=0   position=-100 
+<region> key=g4 width=50  position=50   
+<region> key=a4 width=50  position=-50  
+<region> key=b4 width=120 position=0

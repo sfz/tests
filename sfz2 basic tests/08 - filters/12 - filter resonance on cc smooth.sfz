@@ -16,7 +16,7 @@
 /// channel aftertouch: continuous variation, medium inertia
 
 <group>
-sample=..\[ samples ]\noise.ogg
+sample=..\[ samples ]\noise.wav
 loop_mode=loop_continuous pitch_keytrack=0
 amp_veltrack=0 volume=-6
 
@@ -27,4 +27,4 @@ resonance_oncc73=50 resonance_smoothcc73=1
 resonance_oncc70=50 resonance_smoothcc70=100
 resonance_oncc20=50 resonance_stepcc20=10
 resonance_oncc21=50 resonance_smoothcc21=500
-resonance_oncc129=9600 resonance_smoothcc129=200
+resonance_oncc129=50 resonance_smoothcc129=200

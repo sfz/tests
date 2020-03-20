@@ -1,0 +1,20 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// basic test
+
+<region>
+sample=440.wav
+tune=0 transpose=-36
+volume=-6 pan=-100 
+offset=1000 
+cutoff=1000
+
+<region>
+lokey=0 hikey=64 sample=440.wav
+tune=0 transpose=-24
+
+<region>
+lokey=0 hikey=64 lovel=64 hivel=127 sample=440.wav
+tune=0 transpose=-12

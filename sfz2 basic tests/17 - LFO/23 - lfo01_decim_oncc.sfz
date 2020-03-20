@@ -1,0 +1,16 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// LFO tests
+
+<region> sample=..\[ samples ]\440.wav
+loop_mode=loop_continuous loop_start=12629 loop_end=56728 
+decim=50
+
+lfo01_freq=2 lfo01_wave=1
+lfo01_decim_oncc73=50
+lfo01_decim_oncc70=50 lfo01_decim_smoothcc70=100
+lfo01_decim_oncc20=50 lfo01_decim_stepcc20=20
+lfo01_decim_oncc21=50 lfo01_decim_smoothcc21=1000
+lfo01_decim_oncc129=50 lfo01_decim_smoothcc129=500

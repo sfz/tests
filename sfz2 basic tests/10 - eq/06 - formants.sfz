@@ -1,0 +1,33 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: eq
+/// Test purpose: formant
+///
+/// Test description:
+/// Simple formant filter generated with the voice eq.
+/// use cc1 and cc2 to change the formant peaks.
+
+<group>
+sample=..\[ samples ]\noise mono.wav loop_mode=loop_continuous
+
+<region>
+eq1_freq=600
+eq1_freq_oncc1=-200
+eq1_freq_oncc2=-200
+eq1_bw=0.1
+eq1_gain=24
+
+eq2_freq=1040
+eq2_freq_oncc1=750
+eq2_freq_oncc2=-350
+eq2_bw=0.07
+eq2_gain=18
+eq2_gain_oncc1=-10
+
+eq3_freq=2250
+eq3_freq_oncc1=350
+eq3_bw=0.05
+eq3_gain=15
+eq3_gain_oncc1=-6

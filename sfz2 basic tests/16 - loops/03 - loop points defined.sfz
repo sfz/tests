@@ -1,0 +1,21 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: loops
+/// Test purpose: defined loop points
+///
+/// Test description:
+/// Play and hold any note. The sample should play continuously.
+/// The loop points are defined in the sfz file by using the loop_start/loop_end
+/// opcode pair.
+///
+/// The loop_start/loop_end opcodes should be loop_startNN/loop_endNN for the
+/// remaining fifteen possible loops (i.e. loop_start04=2355)
+///
+/// If a wave has a loop defined and the loop_start/loop_end pair is specified,
+/// the specified pair is used (loop points override).
+
+<region> 
+sample=..\[ samples ]\440.wav
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous

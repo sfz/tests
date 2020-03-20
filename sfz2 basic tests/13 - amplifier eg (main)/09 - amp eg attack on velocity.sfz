@@ -1,0 +1,16 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: amplifier envelope generator
+/// Test purpose: amp eg attack on velocity
+///
+/// Test description:
+/// Play repeatedly any note with increased velocity, verify that the attack
+/// time is shorter each new note.
+
+<region>
+sample=..\[ samples ]\440.wav
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+ampeg_attack=2 ampeg_vel2attack=-2 ampeg_sustain=100 amp_veltrack=0
+ 

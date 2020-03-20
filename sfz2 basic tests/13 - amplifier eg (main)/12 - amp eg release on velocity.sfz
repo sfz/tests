@@ -1,0 +1,15 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: amplifier envelope generator
+/// Test purpose: amp eg release on velocity
+///
+/// Test description:
+/// Play repeatedly any note with increased velocity, verify that the release 
+/// time is longer each new note.
+
+<region>
+sample=..\[ samples ]\440.wav
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+ampeg_release_oncc131=3 amp_veltrack=0

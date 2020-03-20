@@ -1,0 +1,15 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: loops
+/// Test purpose: loop continuous
+///
+/// Test description:
+/// The sample will loop continuously, even during release stage.
+
+<region>
+sample=..\[ samples ]\sweep.wav
+loop_start=9460 loop_end=33857 loop_mode=loop_continuous 
+pitch_keytrack=0
+ampeg_release=10

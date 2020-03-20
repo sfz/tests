@@ -1,0 +1,24 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: amplifier
+/// Test purpose: pan keyboard tracking
+///
+/// Test description:
+/// Play c4, verify that the sample is played centered.
+/// Play an ascending scale starting on c4, verify that each new note is panned 
+/// more to the right.
+/// Play a descending scale starting on c4, verify that each new note is panned
+/// more to the left.
+///
+/// Full left and right should be achieved on one oactave.
+
+<region> 
+sample=..\[ samples ]\440.wav 
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous pitch_keytrack=0 
+amp_veltrack=0
+
+pan_keycenter=c4 pan_keytrack=8.33
+
+

@@ -1,0 +1,18 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: amplifier
+/// Test purpose: amplifier keyboard tracking
+///
+/// Test description:
+/// Play an ascending scale starting on c4, verify that each new note is louder.
+/// Play a descending scale starting on c4, verify each note being softer.
+
+<region>
+sample=..\[ samples ]\440.wav
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+amp_veltrack=0
+hikey=c5 // just to protect our ears
+
+amp_keycenter=c4 amp_keytrack=1 volume=-10

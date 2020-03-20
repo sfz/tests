@@ -1,0 +1,11 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// bend as input control test
+/// 440.wav will play if Pitch Bend is in the positive range
+/// 110.wav will play if Pitch Bend is in the negative range
+/// no sound with bend centered
+
+<region> sample=440.wav lobend=1 hibend=8192
+<region> sample=110.wav lobend=-8192 hibend=-1

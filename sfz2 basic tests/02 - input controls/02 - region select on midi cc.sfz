@@ -6,7 +6,7 @@
 /// test purpose: sample selection based on MIDI cc position.
 ///
 /// test description:
-/// 440.ogg will play if last cc73 message was in the range 64~90 -AND-
+/// 440.wav will play if last cc73 message was in the range 64~90 -AND-
 /// if last mod wheel message (cc1) was in the range 0~30
 ///
 /// All MIDI cc's can be used as input controls for each region.
@@ -16,5 +16,5 @@
 /// just copy the region and assign the inverse range to the copied region.
 
 <region>
-sample=..\[ samples ]\440.ogg
+sample=..\[ samples ]\440.wav
 locc73=64 hicc73=90 locc1=0 hicc1=30

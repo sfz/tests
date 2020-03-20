@@ -1,0 +1,28 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: amplifier
+/// Test purpose: volume on MIDI cc
+///
+/// Test description:
+/// Play any key, use MIDI cc73, cc70, cc20, cc21 and channel aftertouch to
+/// adjust the volume of a single region.
+///
+/// cc73: continuous variation
+/// cc70: continuous variation, small inertia
+/// cc20: stepped variation (6 steps of 4dB)
+/// cc21: continuous variation, big inertia
+/// channel aftertouch: continuous variation, mid inertia.
+
+<group>
+sample=..\[ samples ]\440.wav
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+volume=-24
+
+<region> 
+volume_oncc73=24 volume_smoothcc73=1
+volume_oncc70=24 volume_smoothcc70=100
+volume_oncc20=24 volume_stepcc20=4
+volume_oncc21=24 volume_smoothcc21=500
+volume_oncc129=24 volume_smoothcc129=200

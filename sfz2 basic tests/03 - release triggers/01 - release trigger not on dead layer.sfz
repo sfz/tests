@@ -16,14 +16,18 @@
 /// layer died.
 ///
 /// Play any note and release it immediately. Verify the release-triggered region
-/// plays (110.ogg).
+/// plays (110.wav).
 /// Play any note long enough so it ends. Then release it, verify the release 
 /// triggered region not playing.
 
 <region>
-sample=..\[ samples ]\440.ogg ampeg_hold=0.3 ampeg_sustain=0
+sample=..\[ samples ]\440.wav ampeg_hold=0.3 ampeg_sustain=0
+//we dont want the loop!  
+//loop_start=12629 loop_end=56728 loop_mode=loop_continuous
 
 <region>
-sample=..\[ samples ]\110.ogg 
+sample=..\[ samples ]\110.wav 
+loop_start=10825 loop_end=32473 loop_mode=loop_continuous
+
 trigger=release rt_dead=off
 ampeg_attack=0.1 ampeg_decay=0.4 ampeg_sustain=0

@@ -13,5 +13,5 @@
 // Play any key repeatedly, use mod wheel (cc1) to select the sample offset
 
 <region> 
-sample=..\[ samples ]\Stereo_16_44100.wav
+sample=..\[ samples ]\sweep.wav
 offset_oncc1=100000

@@ -9,7 +9,7 @@
 /// Verify that the two regions play in unison
 
 <group>
-sample=..\[ samples ]\440.ogg
+sample=..\[ samples ]\440.wav
 
 <region>
 <region> tune=100 transpose=-1

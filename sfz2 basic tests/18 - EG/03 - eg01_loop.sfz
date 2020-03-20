@@ -1,0 +1,23 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// eg tests
+
+<region>
+sample=..\[ samples ]\440.wav 
+loopstart=12629 loopend=56728 loopmode=loop_continuous
+ampeg_release=2
+
+eg01_points=7 eg01_sustain=5 
+eg01_loop=2 eg01_loop_shape=1
+
+eg01_level0=0 	 eg01_time0=0
+eg01_level1=1 	 eg01_time1=0.5
+eg01_level2=0.7  eg01_time2=0.5
+eg01_level3=1  	 eg01_time3=0.5
+eg01_level4=0.7  eg01_time4=0.5
+eg01_level5=0.1  eg01_time5=0.5
+eg01_level6=0    eg01_time6=1
+
+eg01_pitch=2400

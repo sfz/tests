@@ -12,8 +12,8 @@
 /// will be held. After sostenuto switch was pressed, new notes won't hold. 
 
 <region> 
-sample=..\[ samples ]\440.ogg
+sample=..\[ samples ]\440.wav
 loop_start=12629 loop_end=56728 loop_mode=loop_continuous
 pitch_keycenter=a3
 
-sostenuto_sw=on  	/ not actually required, default
+sostenuto_sw=on  	// not actually required, default

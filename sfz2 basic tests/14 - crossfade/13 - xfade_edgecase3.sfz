@@ -1,0 +1,33 @@
+/////////////////////////////////////////////////////////////////////////////
+// Xfade logic important note: when locc=hicc, the highest "volume" wins
+//
+// Its impossible to get silence for a region all the time with xfcc logic alone
+
+<group>
+xf_cccurve=gain
+sample=..\[ samples ]\440.wav
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+amp_veltrack=0
+
+
+//should give you full volume, whatever CC value
+<region> transpose=-24
+xfin_locc1=0    xfin_hicc1=0 
+
+
+//should give you silence when cc1[0;126] and full vol when CC1=127
+<region> transpose=-12
+xfin_locc1=127   xfin_hicc1=127 
+
+
+//should give you silence when cc1[1;127] and full vol when CC1=0
+<region> 
+xfout_locc1=0    xfout_hicc1=0 
+
+
+//should give you full volume, whatever CC value
+<region> transpose=12
+xfout_locc1=127  xfout_hicc1=127 
+
+
+

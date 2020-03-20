@@ -11,5 +11,5 @@
 // error log file.
 
 
-<region> sample=..\[ samples ]\440.ogg
+<region> sample=..\[ samples ]\440.wav
 engine_color=organic engine_tone=warm

@@ -1,0 +1,9 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// bend down/up
+
+<region>
+sample=440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous
+bendup=2400 benddown=-1200

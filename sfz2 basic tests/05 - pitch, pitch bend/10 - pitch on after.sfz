@@ -11,6 +11,6 @@
 /// Observe the effect of the pitch_smoothcc opcode
 
 <region>
-sample=..\[ samples ]\440.ogg
+sample=..\[ samples ]\440.wav
 loop_start=12629 loop_end=56728 loop_mode=loop_continuous
 pitch_oncc129=1200 pitch_smoothcc129=30

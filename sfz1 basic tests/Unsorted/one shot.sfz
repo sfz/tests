@@ -1,0 +1,7 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// one-shot sample playing
+
+<region> sample=noise.wav loopmode=one_shot pitch_keytrack=0

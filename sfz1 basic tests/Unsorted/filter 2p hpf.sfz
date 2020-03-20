@@ -1,0 +1,3 @@
+<region> 
+sample=noise.wav loopmode=loop_continuous filtype=hpf_2p
+cutoff=1000 cutoff_cc1=12000 cutoff_chanaft=-4000

@@ -1,0 +1,34 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// parametric eq band 1 gain
+
+<region> locc20=0 hicc20=20
+sample=noise.wav loopmode=loop_continuous
+eq1_freq=1000 eq1_bw=4 eq1_gain=6
+
+
+<region> locc20=21 hicc20=40
+sample=noise.wav loopmode=loop_continuous
+eq1_freq=1000 eq1_bw=2 eq1_gain=6
+
+
+<region> locc20=41 hicc20=60
+sample=noise.wav loopmode=loop_continuous
+eq1_freq=1000 eq1_bw=1 eq1_gain=6
+
+
+<region> locc20=61 hicc20=80
+sample=noise.wav loopmode=loop_continuous
+eq1_freq=1000 eq1_bw=0.5 eq1_gain=6
+
+
+<region> locc20=81 hicc20=100
+sample=noise.wav loopmode=loop_continuous
+eq1_freq=1000 eq1_bw=0.1 eq1_gain=6
+
+
+<region> locc20=101 hicc20=127
+sample=noise.wav loopmode=loop_continuous
+eq1_freq=1000 eq1_bw=0.3 eq1_gain=6

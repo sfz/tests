@@ -7,8 +7,8 @@
 // Test purpose: very basic test for two regions split
 //
 // Test description:
-// 440.ogg will play on c4 and above
-// 110.ogg will play below c4
+// 440.wav will play on c4 and above
+// 110.wav will play below c4
 //
 // Unlimited keyboard regions can be created, each region can include 
 // one or more keys, the range is specified by the 'lokey/hikey' opcode pair.
@@ -27,5 +27,5 @@
 // It is also possible to define the polyphony for repeated notes, and specify
 // a velocity self-masking limit. See 'voice groups' examples.
 
-<region> sample=..\[ samples ]\440.ogg lokey=c4
-<region> sample=..\[ samples ]\110.ogg hikey=b3
+<region> sample=..\[ samples ]\440.wav lokey=c4
+<region> sample=..\[ samples ]\110.wav hikey=b3

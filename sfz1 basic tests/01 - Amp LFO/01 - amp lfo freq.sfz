@@ -1,0 +1,9 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// amp lfo freq
+
+<region>
+sample=..\[ samples ]\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous
+amplfo_freq=1 amplfo_depth=6 volume=-10

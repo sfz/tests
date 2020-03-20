@@ -1,0 +1,22 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: crossfade
+/// Test purpose: crossfade on velocity, equal power
+///
+/// Test description:
+/// Play a note with increased velocity, observe the regions crossfade.
+/// The level meters should indicate a level increment for mid-range velocities.
+
+<region>
+sample=..\[ samples ]\440.wav
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+amp_veltrack=0
+xfin_lovel=0 xfin_hivel=127 xf_velcurve=power
+
+<region>
+sample=..\[ samples ]\110.wav 
+loop_start=10825 loop_end=32473 loop_mode=loop_continuous
+amp_veltrack=0
+xfout_lovel=0 xfout_hivel=127 xf_velcurve=power

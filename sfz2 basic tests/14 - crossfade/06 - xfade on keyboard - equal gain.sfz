@@ -1,0 +1,19 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file
+/// copyright rgc:audio 2004
+/// -------------------------------------------------------------------------
+/// Test group: crossfade
+/// Test purpose: crossfade on keyboard, equal gain
+///
+/// Test description:
+/// Play a scale from c2 to c6. Observe the level indicators, all notes should
+/// display the same level.
+
+<group>
+sample=..\[ samples ]\440.wav
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+amp_veltrack=0
+xf_keycurve=gain
+
+<region> xfin_lokey=c4  xfin_hikey=c#5
+<region> xfout_lokey=c4 xfout_hikey=c#5

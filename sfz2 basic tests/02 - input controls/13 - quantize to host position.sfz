@@ -12,5 +12,5 @@
 /// Play any note off beat, observe that the actual playback
 /// starts in next bar start.
 
-<region> sample=..\[ samples ]\Stereo_16_44100.wav 
+<region> sample=..\[ samples ]\loop.wav 
 sync_beats=4

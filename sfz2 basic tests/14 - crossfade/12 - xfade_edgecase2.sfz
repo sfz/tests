@@ -1,0 +1,15 @@
+/////////////////////////////////////////////////////////////////////////////
+
+<group>
+xf_cccurve=power
+sample=..\[ samples ]\440.wav
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+amp_veltrack=0
+
+
+//this should make a bell like curve
+<region>
+xfin_locc1=0    xfin_hicc1=64 
+xfout_locc1=64  xfout_hicc1=127
+
+
