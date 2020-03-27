@@ -1,0 +1,22 @@
+//four oscillator xfade on CC1
+
+<group>
+xf_cccurve=gain
+
+<region>
+sample=*sine
+xfout_locc1=0 xfout_hicc1=42 
+
+<region>
+sample=*tri
+xfin_locc1=0   xfin_hicc1=42 
+xfout_locc1=42 xfout_hicc1=86 
+
+<region>
+sample=*square
+xfin_locc1=42  xfin_hicc1=86 
+xfout_locc1=86 xfout_hicc1=127 
+
+<region>
+sample=*saw
+xfin_locc1=86 xfin_hicc1=127 

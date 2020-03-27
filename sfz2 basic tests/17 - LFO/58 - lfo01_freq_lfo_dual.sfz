@@ -1,0 +1,38 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// 2013 Plogue Art et Technologie Inc 
+/// -------------------------------------------------------------------------
+/// Tests phase issues when modulating an lfo by another lfo.
+/// You should NOT hear differences between left and right channels
+
+<group>
+sample=..\[ samples ]\440.wav
+loop_mode=loop_continuous loop_start=12629 loop_end=56728 volume=-6
+amp_veltrack=0 
+
+<region> 
+pan=-100
+
+lfo07_wave=2
+lfo07_freq=3
+lfo07_pitch=200
+
+lfo08_wave=2
+lfo08_freq=0.5
+lfo08_freq_lfo07=3
+
+<region>
+pan=100
+
+lfo08_wave=2
+lfo08_freq=3
+lfo08_pitch=200
+
+lfo07_wave=2
+lfo07_freq=0.5
+lfo07_freq_lfo08=3
+
+
+
+
+

@@ -1,0 +1,33 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright Plogue Art et Technologie, Inc 2013
+/// -------------------------------------------------------------------------
+/// ampeg replacement (ARIA/SFZ 3.0)
+//
+//left chanel:  only ampeg runs, a short dying voice
+//Right chanel: complex eg which REPLACES ampeg, by targetting it.
+//
+
+<group> 
+sample=..\[ samples ]\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous
+
+//will sound like a 'ping'
+<region>
+pan=-100
+ampeg_sustain=0
+ampeg_decay=2
+
+
+
+<region>
+pan=100
+
+eg10_sustain=4
+eg10_level0=0 	eg10_time0=0
+eg10_level1=0 	eg10_time1=0.5
+eg10_level2=1 	eg10_time2=1
+eg10_level3=1 	eg10_time3=1 eg10_shape3=.1
+eg10_level4=0.5 eg10_time4=1
+eg10_level5=0   eg10_time5=1
+
+eg10_ampeg=100 //replace ampeg at its full scale

@@ -1,0 +1,18 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// 2013 Plogue Art et Technologie Inc 
+/// -------------------------------------------------------------------------
+/// tests LFO modulation feedback, should not give a stack overflow of course!
+
+<region> sample=..\[ samples ]\440.wav
+loop_mode=loop_continuous loop_start=12629 loop_end=56728 volume=-6
+amp_veltrack=0 
+
+lfo07_wave=2
+lfo07_freq=3
+lfo07_pitch=200
+lfo07_freq_lfo08=2
+
+lfo08_wave=2
+lfo08_freq=0.5
+lfo08_freq_lfo07=3

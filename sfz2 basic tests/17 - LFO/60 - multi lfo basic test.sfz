@@ -1,0 +1,25 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// 2013 Plogue Art et Technologie Inc 
+/// -------------------------------------------------------------------------
+/// tests the new multi lfo, up to 1 main and 7 sub waveforms can make an LFO
+
+<region>
+volume=-6
+sample=*sine
+
+lfo06_wave=1     //main wave   
+lfo06_pitch=700
+lfo06_freq=0
+lfo06_freq_oncc1=4
+
+lfo06_wave2=1   //you define other sub waveforms by filling the following opcodes (this is for the 2nd sub wav)
+lfo06_ratio2=4    //ratio of the main lfo component ... this would make from 0 to 4*4Hz range
+
+lfo06_offset2=0  //vertical offset to apply
+lfo06_scale2=1  //scaling of the sub wav 
+
+//NOTE: offset, ratio and scale are now ALSO available to the main waveform.
+
+
+

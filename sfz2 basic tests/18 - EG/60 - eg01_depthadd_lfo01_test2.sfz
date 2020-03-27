@@ -1,0 +1,34 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright Plogue Art et Technologie, Inc 2013
+/// -------------------------------------------------------------------------
+/// LFO tests
+//
+//left chanel: max range  125Hz -> 8kHz
+//Right chanel: max range 250Hz -> 4kHz 
+//
+
+<group> sample=..\[ samples ]\noise.wav  loopmode=loop_continuous
+ampeg_release=4
+cutoff=1000 resonance=10
+
+eg10_sustain=4
+
+eg10_level0=0 	eg10_time0=0
+eg10_level1=0 	eg10_time1=0.5
+eg10_level2=1 	eg10_time2=1
+eg10_level3=1 	eg10_time3=1 eg10_shape3=.1
+eg10_level4=0.5 eg10_time4=1
+eg10_level5=0   eg10_time5=0
+
+
+
+
+
+lfo10_freq=1
+lfo10_cutoff=1200
+<region>
+eg10_depthadd_lfo10=200 pan=-100 
+
+<region>
+eg10_depthadd_lfo10=100 pan=100

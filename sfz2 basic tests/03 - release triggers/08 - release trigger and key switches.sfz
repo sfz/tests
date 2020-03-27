@@ -1,0 +1,40 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright 2013 Plogue Art et Technologie, Inc 
+/// -------------------------------------------------------------------------
+/// Test group: release triggers
+/// Test purpose: test the influence of keyswitches on release triggers
+///
+/// Test description:
+/// 
+/// 1) hit a note and release, you should hear a triangle release trigger
+/// 2)Hit and hold a note
+///   Hit any note from note 1 to 11
+///   Release note
+///   Make sure you DON'T hear the high note release
+
+<global>
+sw_lokey=0 sw_hikey=11 sw_default=0 lokey=12
+
+<group>
+sw_last=0
+
+<region> 
+sample=..\[ samples ]\110.wav 
+loop_start=10825 loop_end=32473 loop_mode=loop_continuous
+
+
+<region> 
+sample=..\[ samples ]\440.wav
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+trigger=release
+ampeg_sustain=0
+ampeg_decay=1
+
+<group>
+sw_last=1
+
+<region>
+sample=..\[ samples ]\440.wav
+loop_start=12629 loop_end=56728 loop_mode=loop_continuous
+end=-1 //just to exist

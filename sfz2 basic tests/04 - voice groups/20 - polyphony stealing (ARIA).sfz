@@ -1,0 +1,30 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// copyright Plogue 2014
+/// -------------------------------------------------------------------------
+/// Test group: voice groups
+/// Test purpose: sostenuto switch enabled
+///
+/// Test description:
+/// 
+///
+/// Hold a bass note on a left hand and play chords on right hand
+/// watch the left side keeping the sustained notes active
+
+<group>
+volume=-6
+sample=*tri
+ampeg_release=1
+
+<region>
+pan=-100
+polyphony_stealing=1 //POLYP1_SUSTAINED (8bit mask entry)
+polyphony_group=1
+polyphony=8
+
+<region>
+pan=100
+polyphony_stealing=0 //ARIA default steals oldest no matter what!
+polyphony_group=2
+polyphony=8
+

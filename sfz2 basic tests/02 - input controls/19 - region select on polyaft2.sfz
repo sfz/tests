@@ -1,0 +1,9 @@
+/////////////////////////////////////////////////////////////////////////////
+/// sfz definition file 
+/// 2013 Plogue Art et Technologie, Inc
+/// -------------------------------------------------------------------------
+///Input Controls /Region on Polyaft2
+
+<region> sample=..\[ samples ]\440.wav
+loop_mode=loop_continuous loop_start=12629 loop_end=56728 volume=-6
+amp_veltrack=0 locc130=30 hicc130=100
