@@ -7,14 +7,14 @@
 /// higher than middle C = right
 
 <region>
-sample=440.wav lokey=0 hikey=59 pitch_keytrack=0 amp_veltrack=0
+sample=..\[ samples ]\440.wav lokey=0 hikey=59 pitch_keytrack=0 amp_veltrack=0
 pan=-100
 
 <region>
-sample=440.wav lokey=60 hikey=60 pitch_keytrack=0 amp_veltrack=0
+sample=..\[ samples ]\440.wav lokey=60 hikey=60 pitch_keytrack=0 amp_veltrack=0
 pan=0
 
 <region>
-sample=440.wav lokey=61 hikey=127 pitch_keytrack=0 amp_veltrack=0
+sample=..\[ samples ]\440.wav lokey=61 hikey=127 pitch_keytrack=0 amp_veltrack=0
 pan=100
 

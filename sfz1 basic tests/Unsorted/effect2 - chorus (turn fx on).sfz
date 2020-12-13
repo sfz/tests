@@ -6,5 +6,5 @@
 /// turn on sfz effects
 
 <region>
-sample=440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous
+sample=..\[ samples ]\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous
 effect2=100

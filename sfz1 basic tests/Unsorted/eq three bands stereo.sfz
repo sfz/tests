@@ -5,7 +5,7 @@
 /// parametric eq three bands
 
 <region>
-sample=stereo sweep.wav loopmode=loop_continuous
+sample=..\[ samples ]\stereo sweep.wav loopmode=loop_continuous
 eq1_freq=200 eq1_bw=0.5 eq1_gain=6
 eq2_freq=800 eq2_bw=0.5 eq2_gain=6
 eq3_freq=2000 eq3_bw=0.5 eq3_gain=6

@@ -5,28 +5,28 @@
 /// motu's sensible organ
 
 <region> 
-sample=440.wav 
+sample=..\[ samples ]\440.wav 
 loopstart=12629 loopend=56728 loopmode=loop_continuous
 transpose=-12
 pitchlfo_freq=6 pitchlfo_depth=20 pitchlfo_freqcc24=-6
 effect1=40 effect2=20 volume=-6
 
 <region> 
-sample=440.wav 
+sample=..\[ samples ]\440.wav 
 loopstart=12629 loopend=56728 loopmode=loop_continuous
 pitchlfo_freq=6 pitchlfo_depth=20 pitchlfo_freqcc24=-6
 ampeg_attack=0.01 volume=-9
 effect1=40 effect2=20
 
 <region> 
-sample=440.wav 
+sample=..\[ samples ]\440.wav 
 loopstart=12629 loopend=56728 loopmode=loop_continuous
 pitchlfo_freq=6 pitchlfo_depth=-20 pitchlfo_freqcc24=-6
 ampeg_attack=0.001 volume=-9
 effect1=40 effect2=20
 
 <region> 
-sample=440.wav 
+sample=..\[ samples ]\440.wav 
 loopstart=12629 loopend=56728 loopmode=loop_continuous
 transpose=7
 pitchlfo_freq=6 pitchlfo_depth=20 pitchlfo_freqcc24=-6
@@ -34,7 +34,7 @@ ampeg_attack=0.001 volume=-9
 effect1=40 effect2=20
 
 <region> 
-sample=440.wav 
+sample=..\[ samples ]\440.wav 
 loopstart=12629 loopend=56728 loopmode=loop_continuous
 transpose=12
 pitchlfo_freq=12 pitchlfo_depth=20 pitchlfo_freqcc25=-12
@@ -43,7 +43,7 @@ xfin_locc20=0 xfin_hicc20=127
 effect1=40 effect2=20
 
 <region> 
-sample=440.wav 
+sample=..\[ samples ]\440.wav 
 loopstart=12629 loopend=56728 loopmode=loop_continuous
 transpose=19
 pitchlfo_freq=12 pitchlfo_depth=20 pitchlfo_freqcc25=-12
@@ -52,7 +52,7 @@ xfin_locc21=0 xfin_hicc21=127
 effect1=40 effect2=20
 
 <region> 
-sample=440.wav 
+sample=..\[ samples ]\440.wav 
 loopstart=12629 loopend=56728 loopmode=loop_continuous
 transpose=24
 pitchlfo_freq=12 pitchlfo_depth=20 pitchlfo_freqcc25=-12
@@ -61,7 +61,7 @@ xfin_locc22=0 xfin_hicc22=127
 effect1=40 effect2=20
 
 <region> 
-sample=440.wav 
+sample=..\[ samples ]\440.wav 
 loopstart=12629 loopend=56728 loopmode=loop_continuous
 transpose=31
 pitchlfo_freq=12 pitchlfo_depth=20 pitchlfo_freqcc25=-12

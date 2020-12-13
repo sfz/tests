@@ -5,7 +5,7 @@
 /// parametric eq three bands
 
 <region> locc20=0 hicc20=20
-sample=sweep.wav loopmode=loop_continuous
+sample=..\[ samples ]\sweep.wav loopmode=loop_continuous
 eq1_freq=200 eq1_bw=0.1 eq1_gain=6
 eq2_freq=800 eq2_bw=0.1 eq2_gain=6
 eq3_freq=2000 eq3_bw=0.1 eq3_gain=6

@@ -6,12 +6,12 @@
 /// turn on sfz effects
 
 <region>
-sample=noise.wav cutoff=1000 resonance=40
+sample=..\[ samples ]\noise.wav cutoff=1000 resonance=40
 ampeg_hold=0.1 ampeg_sustain=0
 
 
 <region>
-sample=noise.wav cutoff=1000 resonance=40
+sample=..\[ samples ]\noise.wav cutoff=1000 resonance=40
 ampeg_delay=0.4 ampeg_attack=0.02 ampeg_hold=0.1 ampeg_sustain=0
 effect1=100
 

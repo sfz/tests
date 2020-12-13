@@ -1,3 +1,3 @@
 <region> 
-sample=noise.wav loopmode=loop_continuous filtype=lpf_1p
+sample=..\[ samples ]\noise.wav loopmode=loop_continuous filtype=lpf_1p
 cutoff=1000 cutoff_cc1=12000 resonance=3 cutoff_chanaft=-4000

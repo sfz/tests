@@ -7,7 +7,7 @@
 /// release triggered region volume will drop 6.5dB/second since note-on
 
 <region>
-sample=440.wav
+sample=..\[ samples ]\440.wav
 
 <region>
-sample=110.wav trigger=release rtdecay=6.5
+sample=..\[ samples ]\110.wav trigger=release rtdecay=6.5

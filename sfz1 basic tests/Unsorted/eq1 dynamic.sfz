@@ -5,6 +5,6 @@
 /// eq1 dynamic controls
 
 <region>
-sample=noise.wav loopmode=loop_continuous
+sample=..\[ samples ]\noise.wav loopmode=loop_continuous
 eq1_freq=200 eq1_freqcc20=4000 eq1_bwcc21=1 eq1_gaincc22=24 
 

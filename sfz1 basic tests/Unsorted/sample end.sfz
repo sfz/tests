@@ -5,4 +5,4 @@
 /// sample end
 
 <region>
-sample=mono looped 1k.wav end=4400
+sample=..\[ samples ]\mono looped 1k.wav end=4400

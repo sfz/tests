@@ -4,4 +4,4 @@
 /// -------------------------------------------------------------------------
 /// sw_previous
 
-<region> sample=bd.wav sw_previous=60
+<region> sample=..\[ samples ]\bd.wav sw_previous=60

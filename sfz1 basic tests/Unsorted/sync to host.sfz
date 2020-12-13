@@ -5,4 +5,4 @@
 /// sync to host loop
 
 <region>
-sample=loop.wav
+sample=..\[ samples ]\loop.wav

@@ -5,16 +5,16 @@
 /// basic test
 
 <region>
-sample=440.wav
+sample=..\[ samples ]\440.wav
 tune=0 transpose=-36
 volume=-6 pan=-100 
 offset=1000 
 cutoff=1000
 
 <region>
-lokey=0 hikey=64 sample=440.wav
+lokey=0 hikey=64 sample=..\[ samples ]\440.wav
 tune=0 transpose=-24
 
 <region>
-lokey=0 hikey=64 lovel=64 hivel=127 sample=440.wav
+lokey=0 hikey=64 lovel=64 hivel=127 sample=..\[ samples ]\440.wav
 tune=0 transpose=-12

@@ -5,4 +5,4 @@
 /// pitch keytrack
 
 <region>
-sample=440.wav pitch_keytrack=-100
+sample=..\[ samples ]\440.wav pitch_keytrack=-100

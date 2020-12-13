@@ -5,13 +5,13 @@
 ///
 
 <region>
-sample=110.wav loopstart=11227 loopend=31672 loopmode=loop_continuous transpose=12
+sample=..\[ samples ]\110.wav loopstart=11227 loopend=31672 loopmode=loop_continuous transpose=12
 xfout_locc1=0 xfout_hicc1=127 xfout_locc2=0 xfout_hicc2=127
 
 
 
 <region>
-sample=440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous
+sample=..\[ samples ]\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous
 xfin_locc1=0 xfin_hicc1=127 xfin_locc2=0 xfin_hicc2=127
 
 

@@ -4,7 +4,7 @@
 /// -------------------------------------------------------------------------
 /// random
 
-<region> sample=bd.wav transpose=0 lorand=0 hirand=0.25
-<region> sample=bd.wav transpose=3 lorand=0.25 hirand=0.5
-<region> sample=bd.wav transpose=6 lorand=0.5 hirand=0.75
-<region> sample=bd.wav transpose=8 lorand=0.75 hirand=1
+<region> sample=..\[ samples ]\bd.wav transpose=0 lorand=0 hirand=0.25
+<region> sample=..\[ samples ]\bd.wav transpose=3 lorand=0.25 hirand=0.5
+<region> sample=..\[ samples ]\bd.wav transpose=6 lorand=0.5 hirand=0.75
+<region> sample=..\[ samples ]\bd.wav transpose=8 lorand=0.75 hirand=1

@@ -5,5 +5,5 @@
 ///
 
 <region>
-sample=440.wav loopstart=11227 loopend=31672 loopmode=loop_continuous transpose=12
+sample=..\[ samples ]\440.wav loopstart=11227 loopend=31672 loopmode=loop_continuous transpose=12
 xfout_locc1=0 xfout_hicc1=127
