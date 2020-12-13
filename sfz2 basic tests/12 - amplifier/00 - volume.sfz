@@ -11,7 +11,7 @@
 /// Evaluate that the volume difference between regions was 24dB.
 
 <group>
-sample=..\[ samples ]\440.wav
+sample=..\..\samples\440.wav
 loop_start=12629 loop_end=56728 loop_mode=loop_continuous
 amp_veltrack=0
 

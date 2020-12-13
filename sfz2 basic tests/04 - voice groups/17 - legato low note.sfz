@@ -10,6 +10,6 @@
 /// works.
 
 
-<region> sample=..\[ samples ]\mono 400 looped.wav
+<region> sample=..\..\samples\mono 400 looped.wav
 polyphony=legato_low
 lokey=c4

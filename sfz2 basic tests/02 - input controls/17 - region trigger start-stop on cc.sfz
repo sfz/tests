@@ -11,7 +11,7 @@
 
 <group> 
 lokey=-1 hikey=-1
-sample=..\[ samples ]\440.ogg
+sample=..\..\samples\440.ogg
 loop_start=12629 loop_end=56728 loop_mode=loop_continuous
 
 

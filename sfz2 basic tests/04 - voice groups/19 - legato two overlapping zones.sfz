@@ -9,13 +9,13 @@
 /// Same test as previous, but the two zones now overlap.
 
 <region> 
-sample=..\[ samples ]\mono 400 looped.wav
+sample=..\..\samples\mono 400 looped.wav
 group=1
 polyphony=legato_last
 lokey=c4 hikey=c6
 transpose=12
 
 
-<region> sample=..\[ samples ]\mono 400 looped.wav
+<region> sample=..\..\samples\mono 400 looped.wav
 group=2
 polyphony=legato_last

@@ -15,7 +15,7 @@
 
 
 <region>
-sample=..\[ samples ]\440.wav
+sample=..\..\samples\440.wav
 loop_start=12629 loop_end=56728 loop_mode=loop_continuous 
 pitch_keycenter=a3 
 

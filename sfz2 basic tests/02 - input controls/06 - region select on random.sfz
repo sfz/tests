@@ -14,7 +14,7 @@
 /// variations in each snare hit or violin note.
 
 <group>
-sample=..\[ samples ]\bd.wav 
+sample=..\..\samples\bd.wav 
 
 <region> transpose=0 lorand=0 	 hirand=0.25
 <region> transpose=3 lorand=0.25 hirand=0.5

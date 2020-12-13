@@ -10,6 +10,6 @@
 /// It should match the phase in 'two-tone.wav'
 
 <region>
-sample=..\[ samples ]\two tone.wav
+sample=..\..\samples\two tone.wav
 loop_start=10336  loop_end=12100  loop_mode=loop_continuous
 phase=normal

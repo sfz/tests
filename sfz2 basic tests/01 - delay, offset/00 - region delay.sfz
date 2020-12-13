@@ -15,7 +15,7 @@
 // verify that each note dies in the polyphony counter.
 
 <group>
-sample=..\[ samples ]\440.wav
+sample=..\..\samples\440.wav
 loop_start=12629 loop_end=56728 loop_mode=loop_continuous
 ampeg_hold=0.25
 ampeg_attack=0.01

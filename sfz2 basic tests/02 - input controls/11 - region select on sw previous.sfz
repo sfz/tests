@@ -13,5 +13,5 @@
 /// a real sample of a violin player doing the c4~f4 interval for utmost
 /// realism (vsl-like legato playing).
 
-<region> sample=..\[ samples ]\bd.wav 
+<region> sample=..\..\samples\bd.wav 
 sw_previous=60

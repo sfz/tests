@@ -5,6 +5,6 @@
 /// pitch eg vel2release
 
 <region>
-sample=..\[ samples ]\440.wav 
+sample=..\..\samples\440.wav 
 loopstart=12629 loopend=56728 loopmode=loop_continuous amp_veltrack=0
 pitcheg_sustain=100 pitcheg_vel2release=2 pitcheg_depth=1200 ampeg_release=3

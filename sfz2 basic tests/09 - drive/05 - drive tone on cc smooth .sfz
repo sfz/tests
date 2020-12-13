@@ -16,7 +16,7 @@
 /// channel aftertouch: continuous variation, mid inertia.
 
 <region> 
-sample=..\[ samples ]\two tone.wav 
+sample=..\..\samples\two tone.wav 
 loop_mode=loop_continuous
 drive_shape=100 volume=-6
 drive_filter=lpf_2p

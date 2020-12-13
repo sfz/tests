@@ -10,13 +10,13 @@
 /// The level meters should indicate a constant level.
 
 <region>
-sample=..\[ samples ]\440.wav
+sample=..\..\samples\440.wav
 loop_start=12629 loop_end=56728 loop_mode=loop_continuous
 amp_veltrack=0
 xfin_lovel=0 xfin_hivel=127 xf_velcurve=gain 
 
 <region>
-sample=..\[ samples ]\110.wav
+sample=..\..\samples\110.wav
 loop_start=10825 loop_end=32473 loop_mode=loop_continuous
 amp_veltrack=0
 xfout_lovel=0 xfout_hivel=127 xf_velcurve=gain 

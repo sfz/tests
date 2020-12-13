@@ -4,7 +4,7 @@
 /// -------------------------------------------------------------------------
 /// LFO tests
 
-<region> sample=..\[ samples ]\only l.wav
+<region> sample=..\..\samples\only l.wav
 loop_mode=loop_continuous
 amp_veltrack=0 
 

@@ -5,5 +5,5 @@
 /// amplifier eg vel2attack
 
 <region>
-sample=..\[ samples ]\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous
+sample=..\..\samples\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous
 ampeg_attack=2 ampeg_vel2attack=-3 ampeg_sustain=100

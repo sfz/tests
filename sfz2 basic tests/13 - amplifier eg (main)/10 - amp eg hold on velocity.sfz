@@ -10,6 +10,6 @@
 /// time is longer each new note.
 
 <region>
-sample=..\[ samples ]\440.wav 
+sample=..\..\samples\440.wav 
 loop_start=12629 loop_end=56728 loop_mode=loop_continuous
 ampeg_hold_oncc131=2 ampeg_sustain=0 amp_veltrack=0

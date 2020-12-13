@@ -5,6 +5,6 @@
 /// pitch eg attack
 
 <region>
-sample=..\[ samples ]\440.wav 
+sample=..\..\samples\440.wav 
 loopstart=12629 loopend=56728 loopmode=loop_continuous amp_veltrack=0
 pitcheg_vel2attack=2 pitcheg_sustain=100 pitcheg_depth=1200

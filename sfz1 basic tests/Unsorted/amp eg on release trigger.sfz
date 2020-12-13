@@ -6,7 +6,7 @@
 /// 110 will play on release
 
 <region>
-sample=..\[ samples ]\440.wav
+sample=..\..\samples\440.wav
 
 <region>
 sample=110.wav trigger=release 

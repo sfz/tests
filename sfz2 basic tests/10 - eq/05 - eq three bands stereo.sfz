@@ -11,7 +11,7 @@
 /// Plot the frequency response and distortion of the resulting file.
 
 <region>
-sample=..\[ samples ]\sweep test stereo.wav
+sample=..\..\samples\sweep test stereo.wav
 loop_mode=one_shot
 amp_veltrack=0 pitch_keytrack=0
 

@@ -13,7 +13,7 @@
 /// discontinuities.
 
 <region> 
-sample=..\[ samples ]\noise mono.wav
+sample=..\..\samples\noise mono.wav
 loop_mode=loop_continuous pitch_keytrack=0
 
 fil_type=hpf_1p

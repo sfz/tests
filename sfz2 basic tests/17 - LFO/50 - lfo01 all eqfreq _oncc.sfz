@@ -4,7 +4,7 @@
 /// -------------------------------------------------------------------------
 /// LFO tests
 
-<region> sample=..\[ samples ]\noise.wav
+<region> sample=..\..\samples\noise.wav
 loop_mode=loop_continuous
 volume=-6
 eq1_gain=18

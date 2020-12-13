@@ -6,4 +6,4 @@
 /// sample has loop points defined
 
 <region>
-sample=..\[ samples ]\stereo looped 1k.wav
+sample=..\..\samples\stereo looped 1k old.wav

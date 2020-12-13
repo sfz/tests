@@ -17,7 +17,7 @@
 
 
 <region> 
-sample=..\[ samples ]\stereo silence.wav
+sample=..\..\samples\stereo silence.wav
 amp_veltrack=0
 
 noise_filter=lpf_1p

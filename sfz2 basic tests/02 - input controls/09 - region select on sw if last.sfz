@@ -18,8 +18,8 @@
 <group>
 sw_lokey=48 sw_hikey=52 lokey=60 
 
-<region> sample=..\[ samples ]\440.wav    sw_last=c3 
-<region> sample=..\[ samples ]\110.wav    sw_last=49
-<region> sample=..\[ samples ]\noise.wav  sw_last=50
-<region> sample=..\[ samples ]\bd.wav     sw_last=51
-<region> sample=..\[ samples ]\hh.wav     sw_last=52
+<region> sample=..\..\samples\440.wav    sw_last=c3 
+<region> sample=..\..\samples\110.wav    sw_last=49
+<region> sample=..\..\samples\noise.wav  sw_last=50
+<region> sample=..\..\samples\bd.wav     sw_last=51
+<region> sample=..\..\samples\hh.wav     sw_last=52

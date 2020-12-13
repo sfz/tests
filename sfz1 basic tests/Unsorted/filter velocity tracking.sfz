@@ -6,5 +6,5 @@
 /// play same note with different velocities
 
 <region>
-sample=..\[ samples ]\noise.wav cutoff=400 resonance=40 loopmode=loop_continuous
+sample=..\..\samples\noise.wav cutoff=400 resonance=40 loopmode=loop_continuous
 fil_veltrack=2400

@@ -42,5 +42,5 @@
 // More controls can be created for GUI controls.
 
 
-<region> sample=..\[ samples ]\440.wav 
+<region> sample=..\..\samples\440.wav 
 pitch_oncc135=1200 // pitch on random

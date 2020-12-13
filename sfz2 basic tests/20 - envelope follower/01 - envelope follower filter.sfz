@@ -5,7 +5,7 @@
 /// envelope follower tests
 
 <region>
-sample=..\[ samples ]\Mono_16_44100.wav
+sample=..\..\samples\Mono_16_44100.wav
 fil_type=lpf_2p cutoff=100 resonance=20
 
 eg01_follow_attack=0 eg01_follow_release=0.5 

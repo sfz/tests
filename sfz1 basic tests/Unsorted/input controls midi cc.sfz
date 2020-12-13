@@ -7,5 +7,5 @@
 /// AND if MIDI controller 1 (mod wheel) is in the 0~30 range
 
 <region>
-sample=..\[ samples ]\440.wav
+sample=..\..\samples\440.wav
 locc74=64 hicc74=90 locc1=0 hicc1=30

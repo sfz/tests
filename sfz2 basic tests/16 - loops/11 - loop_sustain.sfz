@@ -9,7 +9,7 @@
 /// The sample will loop until note-off, then the rest of the sample will play.
 
 <region>
-sample=..\[ samples ]\sweep.wav
+sample=..\..\samples\sweep.wav
 loop_start=9460 loop_end=33857 loop_mode=loop_sustain
 pitch_keytrack=0 
 ampeg_release=10

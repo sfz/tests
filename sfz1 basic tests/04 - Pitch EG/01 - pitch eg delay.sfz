@@ -5,6 +5,6 @@
 /// pitch eg delay
 
 <region>
-sample=..\[ samples ]\440.wav 
+sample=..\..\samples\440.wav 
 loopstart=12629 loopend=56728 loopmode=loop_continuous
 pitcheg_delay=0.5 pitcheg_attack=1 pitcheg_sustain=100 pitcheg_depth=1200

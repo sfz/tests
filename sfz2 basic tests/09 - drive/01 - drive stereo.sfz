@@ -9,6 +9,6 @@
 /// Play any key, verify the sample sounds as an overdriven sine wave.
 
 <region> 
-sample=..\[ samples ]\stereo 400 looped.wav
+sample=..\..\samples\stereo 400 looped.wav
 
 drive_shape=100 volume=-12

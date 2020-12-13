@@ -4,7 +4,7 @@
 /// -------------------------------------------------------------------------
 /// LFO tests
 
-<region> sample=..\[ samples ]\noise.wav
+<region> sample=..\..\samples\noise.wav
 loop_mode=loop_continuous amp_veltrack=0
 
 cutoff=1000 resonance=10 amp_veltrack=0

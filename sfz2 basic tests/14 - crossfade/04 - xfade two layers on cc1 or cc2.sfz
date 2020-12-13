@@ -9,7 +9,7 @@
 /// Play any key, move mod wheel (cc1). Observe how the two layers crossfade
 
 <region>
-sample=..\[ samples ]\110.wav
+sample=..\..\samples\110.wav
 loop_start=11227 loop_end=31672 loop_mode=loop_continuous
 transpose=12
 xfout_locc1=0 xfout_hicc1=127 
@@ -17,7 +17,7 @@ xfout_locc1=0 xfout_hicc1=127
 xf_cccurve=power
 
 <region>
-sample=..\[ samples ]\440.wav
+sample=..\..\samples\440.wav
 loop_start=12629 loop_end=56728 loop_mode=loop_continuous
 xfin_locc1=0 xfin_hicc1=127 
 //xfin_locc2=0 xfin_hicc2=127 no sense!

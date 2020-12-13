@@ -5,5 +5,5 @@
 /// loop_sustain
 
 <region>
-sample=..\[ samples ]\sweep.wav pitch_keytrack=0 loopmode=loop_continuous
+sample=..\..\samples\sweep.wav pitch_keytrack=0 loopmode=loop_continuous
 loopstart=9460 loopend=33857 ampeg_release=10

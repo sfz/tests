@@ -5,10 +5,10 @@
 /// bend down/up in two regions
 
 <region>
-sample=..\[ samples ]\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous
+sample=..\..\samples\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous
 bendup=1200 benddown=-1200
 
 
 <region>
-sample=..\[ samples ]\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous
+sample=..\..\samples\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous
 bendup=-1200 benddown=1200

@@ -16,5 +16,5 @@
 /// just copy the region and assign the inverse range to the copied region.
 
 <region>
-sample=..\[ samples ]\440.wav
+sample=..\..\samples\440.wav
 locc73=64 hicc73=90 locc1=0 hicc1=30

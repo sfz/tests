@@ -12,5 +12,5 @@
 /// http://www.rgcaudio.com/sfzsamples/velcurvetest.gif
 
 <region>
-sample=..\[ samples ]\440.wav
+sample=..\..\samples\440.wav
 amp_velcurve_20=0.5 amp_velcurve_90=0.85

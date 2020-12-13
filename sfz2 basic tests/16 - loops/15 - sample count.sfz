@@ -9,6 +9,6 @@
 /// Play any key, verify that the sample plays three times.
 
 <region>
-sample=..\[ samples ]\bd.wav 
+sample=..\..\samples\bd.wav 
 count=3
 

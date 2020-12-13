@@ -26,7 +26,7 @@
 /// long release group, cc1 < 64
 
 <group>
-sample=..\[ samples ]\440.wav 
+sample=..\..\samples\440.wav 
 ampeg_release=5 
 loop_start=12629 loop_end=56728 loop_mode=loop_continuous
 hicc1=64
@@ -44,7 +44,7 @@ hicc1=64
 /// short release group, cc1 > 64
 
 <group>
-sample=..\[ samples ]\440.wav 
+sample=..\..\samples\440.wav 
 ampeg_release=0.1 
 loop_start=12629 loop_end=56728 loop_mode=loop_continuous
 locc1=65

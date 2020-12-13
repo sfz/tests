@@ -10,7 +10,7 @@
 /// Observe that both channels are affected due the stereo link.
 
 <region> 
-sample=..\[ samples ]\compressor test link.wav
+sample=..\..\samples\compressor test link.wav
 loop_mode=loop_continuous
 
 comp_stlink=on

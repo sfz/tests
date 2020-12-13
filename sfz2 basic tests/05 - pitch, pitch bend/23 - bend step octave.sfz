@@ -10,6 +10,6 @@
 /// observe the pitch change in one-octave steps.
 
 <region>
-sample=..\[ samples ]\440.wav
+sample=..\..\samples\440.wav
 loop_start=12629 loop_end=56728 loop_mode=loop_continuous
 bend_up=9600 bend_down=-9600 bend_step=1200

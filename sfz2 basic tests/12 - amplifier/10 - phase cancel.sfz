@@ -12,7 +12,7 @@
 /// Observe the quality of resulting silence.
 
 <group>
-sample=..\[ samples ]\two tone.wav
+sample=..\..\samples\two tone.wav
 loop_start=10336  loop_end=12100  loop_mode=loop_continuous
 volume=30
 

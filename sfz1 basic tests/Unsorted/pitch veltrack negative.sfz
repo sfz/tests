@@ -5,4 +5,4 @@
 /// velocity track
 
 <region>
-sample=..\[ samples ]\440.wav pitch_veltrack=-1200
+sample=..\..\samples\440.wav pitch_veltrack=-1200

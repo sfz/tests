@@ -9,7 +9,7 @@
 /// Render one note, verify the compressor working in a wave editor.
 
 <region> 
-sample=..\[ samples ]\compressor test mono.wav
+sample=..\..\samples\compressor test mono.wav
 loop_mode=loop_continuous
 
 comp_threshold=-6

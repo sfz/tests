@@ -9,7 +9,7 @@
 /// Sample will loop forward continuously.
 
 <region> 
-sample=..\[ samples ]\stereo looped 1k.wav 
+sample=..\..\samples\stereo looped 1k.wav 
 loop_mode=loop_continuous
 loop_type=forward
 loop_start=0 loop_end=44100

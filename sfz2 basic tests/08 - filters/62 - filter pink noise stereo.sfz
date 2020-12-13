@@ -8,7 +8,7 @@
 /// Test description:
 /// Play any key, verify that noise is turned into pink noise by the filter.
 
-<region> sample=..\[ samples ]\noise stereo.wav
+<region> sample=..\..\samples\noise stereo.wav
 loop_mode=loop_continuous
 
 fil_type=pink

@@ -12,5 +12,5 @@
 /// The player then loops the whole sample.
 
 <region>
-sample=..\[ samples ]\bd.wav
+sample=..\..\samples\bd.wav
 loop_mode=loop_continuous

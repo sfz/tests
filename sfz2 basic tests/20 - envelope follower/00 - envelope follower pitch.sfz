@@ -5,6 +5,6 @@
 /// envelope follower tests
 
 <region>
-sample=..\[ samples ]\fade out.wav
+sample=..\..\samples\fade out.wav
 eg01_followattack=0 eg01_followrelease=0.5 eg01_followspeed=20
 eg01_pitch=1200

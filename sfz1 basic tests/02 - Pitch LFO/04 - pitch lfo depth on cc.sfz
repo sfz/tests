@@ -5,9 +5,9 @@
 /// pitch lfo depth on MIDI mod wheel and breath
 
 <region>
-sample=..\[ samples ]\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous
+sample=..\..\samples\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous
 pitchlfo_freq=5 pitchlfo_depthcc1=100
 
 <region>
-sample=..\[ samples ]\440.wav transpose=12 loopstart=12629 loopend=56728 loopmode=loop_continuous
+sample=..\..\samples\440.wav transpose=12 loopstart=12629 loopend=56728 loopmode=loop_continuous
 pitchlfo_freq=10 pitchlfo_depthcc2=100

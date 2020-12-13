@@ -5,30 +5,30 @@
 /// parametric eq band 1 frequency
 
 <region> locc20=0 hicc20=20
-sample=..\[ samples ]\noise.wav loopmode=loop_continuous
+sample=..\..\samples\noise.wav loopmode=loop_continuous
 eq1_freq=1000 eq1_bw=0.3 eq1_gain=-12
 
 
 <region> locc20=21 hicc20=40
-sample=..\[ samples ]\noise.wav loopmode=loop_continuous
+sample=..\..\samples\noise.wav loopmode=loop_continuous
 eq1_freq=400 eq1_bw=0.3 eq1_gain=-12
 
 
 <region> locc20=41 hicc20=60
-sample=..\[ samples ]\noise.wav loopmode=loop_continuous
+sample=..\..\samples\noise.wav loopmode=loop_continuous
 eq1_freq=500 eq1_bw=0.3 eq1_gain=-12
 
 
 <region> locc20=61 hicc20=80
-sample=..\[ samples ]\noise.wav loopmode=loop_continuous
+sample=..\..\samples\noise.wav loopmode=loop_continuous
 eq1_freq=2000 eq1_bw=0.3 eq1_gain=-12
 
 
 <region> locc20=81 hicc20=100
-sample=..\[ samples ]\noise.wav loopmode=loop_continuous
+sample=..\..\samples\noise.wav loopmode=loop_continuous
 eq1_freq=4000 eq1_bw=0.3 eq1_gain=-12
 
 
 <region> locc20=101 hicc20=127
-sample=..\[ samples ]\noise.wav loopmode=loop_continuous
+sample=..\..\samples\noise.wav loopmode=loop_continuous
 eq1_freq=8000 eq1_bw=0.3 eq1_gain=-12

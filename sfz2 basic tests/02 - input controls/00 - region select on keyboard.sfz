@@ -11,10 +11,10 @@
 
 
 <region>
-sample=..\[ samples ]\440.wav
+sample=..\..\samples\440.wav
 loop_start=12629 loop_end=56728 loop_mode=loop_continuous
 lokey=c3 hikey=c4
 
 <region>
-sample=..\[ samples ]\110.wav
+sample=..\..\samples\110.wav
 lokey=c5 hikey=c6

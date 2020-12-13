@@ -21,12 +21,12 @@
 /// triggered region not playing.
 
 <region>
-sample=..\[ samples ]\440.wav ampeg_hold=0.3 ampeg_sustain=0
+sample=..\..\samples\440.wav ampeg_hold=0.3 ampeg_sustain=0
 //we dont want the loop!  
 //loop_start=12629 loop_end=56728 loop_mode=loop_continuous
 
 <region>
-sample=..\[ samples ]\110.wav 
+sample=..\..\samples\110.wav 
 loop_start=10825 loop_end=32473 loop_mode=loop_continuous
 
 trigger=release rt_dead=off
