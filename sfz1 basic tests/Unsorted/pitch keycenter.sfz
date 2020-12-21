@@ -5,4 +5,4 @@
 /// pitch keycenter (root)
 
 <region>
-sample=..\[ samples ]\440.wav pitch_keycenter=57
+sample=..\..\samples\440.wav pitch_keycenter=57

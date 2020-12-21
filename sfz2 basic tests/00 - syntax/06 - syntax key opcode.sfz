@@ -34,5 +34,5 @@
 // file readability while being minimalistic, in an extremely used case. 
 // Therefore it's in.
 
-<region> sample=..\[ samples ]\440.wav key=d#3
+<region> sample=..\..\samples\440.wav key=d#3
 

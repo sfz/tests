@@ -16,17 +16,17 @@
 <group> lokey=-1 hikey=-1
 
 <region>
-sample=..\[ samples ]\bd.wav
+sample=..\..\samples\bd.wav
 on_locc64=127 on_hicc64=127
 
 <region>
-sample=..\[ samples ]\hh.wav
+sample=..\..\samples\hh.wav
 on_locc64=0 on_hicc64=0
 
 <region>
-sample=..\[ samples ]\bd.wav
+sample=..\..\samples\bd.wav
 on_locc1=0 on_hicc1=0
 
 <region>
-sample=..\[ samples ]\hh.wav
+sample=..\..\samples\hh.wav
 on_locc1=64 on_hicc1=127

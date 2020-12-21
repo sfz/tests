@@ -14,5 +14,5 @@
 /// Change 'sync_offset' value to select the start-up position, floating point
 /// values allowed.
 
-<region> sample=..\[ samples ]\loop.wav 
+<region> sample=..\..\samples\loop.wav 
 sync_beats=4 sync_offset=1

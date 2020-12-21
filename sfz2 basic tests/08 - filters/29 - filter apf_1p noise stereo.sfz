@@ -9,7 +9,7 @@
 /// No effect should be percieved on this filter on noise. Perform Delay test.
 
 <region> 
-sample=..\[ samples ]\noise stereo.wav
+sample=..\..\samples\noise stereo.wav
 loop_mode=loop_continuous pitch_keytrack=0
 fil_type=apf_1p
 cutoff=200 cutoff_oncc1=20000

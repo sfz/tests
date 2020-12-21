@@ -10,7 +10,7 @@
 /// the sample playing in reverse.
 
 <group> 
-sample=..\[ samples ]\bd.wav
+sample=..\..\samples\bd.wav
 
 
 <region> loop_mode=loop_continuous 

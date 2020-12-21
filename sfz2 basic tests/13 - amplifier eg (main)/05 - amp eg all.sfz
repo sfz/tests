@@ -21,7 +21,7 @@
 /// release: 3s
 
 <region>
-sample=..\[ samples ]\440.wav 
+sample=..\..\samples\440.wav 
 loop_start=12629 loop_end=56728 loopmode=loop_continuous
 amp_veltrack=0
 ampeg_delay=1 ampeg_attack=1 ampeg_hold=1 ampeg_decay=0.5 ampeg_sustain=50 ampeg_release=3

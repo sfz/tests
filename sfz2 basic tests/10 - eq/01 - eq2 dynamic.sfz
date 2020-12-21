@@ -21,7 +21,7 @@
 /// so it's possible to combine the filters and equalizer in the same voice.
 
 <region>
-sample=..\[ samples ]\noise.wav loop_mode=loop_continuous
+sample=..\..\samples\noise.wav loop_mode=loop_continuous
 
 eq2_freq=200   eq2_freq_oncc73=2400
 eq2_bw=1       eq2_bw_oncc70=1 

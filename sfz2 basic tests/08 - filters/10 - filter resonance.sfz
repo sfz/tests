@@ -9,7 +9,7 @@
 /// Play any note, verify the resonant filter working.
 
 <region>
-sample=..\[ samples ]\noise.wav
+sample=..\..\samples\noise.wav
 loop_mode=loop_continuous pitch_keytrack=0
 amp_veltrack=0 volume=-6 
 

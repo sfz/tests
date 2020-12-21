@@ -9,5 +9,5 @@
 /// Sample will loop three times (sample plays four times).
 
 <region>
-sample=..\[ samples ]\bd.wav 
+sample=..\..\samples\bd.wav 
 loop_count=3 loop_mode=loop_continuous

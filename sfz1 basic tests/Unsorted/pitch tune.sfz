@@ -5,9 +5,9 @@
 /// tuning and transpose test
 
 <region>
-sample=..\[ samples ]\440.wav
+sample=..\..\samples\440.wav
 tune=100
 transpose=-1
 
 <region>
-sample=..\[ samples ]\440.wav
+sample=..\..\samples\440.wav

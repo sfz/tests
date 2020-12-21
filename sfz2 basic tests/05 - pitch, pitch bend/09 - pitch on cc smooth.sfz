@@ -15,7 +15,7 @@
 /// channel aftertouch: continuous variation, smoothed.
 
 <group>
-sample=..\[ samples ]\440.wav
+sample=..\..\samples\440.wav
 loop_start=12629 loop_end=56728 loop_mode=loop_continuous
 bend_up=0 bend_down=0
 

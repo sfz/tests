@@ -9,12 +9,12 @@
 /// Notes below c4 will cut notes above c4. Not viceversa.
 
 <region>
-sample=..\[ samples ]\110.wav 
+sample=..\..\samples\110.wav 
 loop_start=10825 loop_end=32473 loop_mode=loop_continuous
 hikey=b3 group=1 
 
 <region> 
-sample=..\[ samples ]\440.wav 
+sample=..\..\samples\440.wav 
 loop_start=12629 loop_end=56728 loop_mode=loop_continuous 
 lokey=c4 offby=1
 

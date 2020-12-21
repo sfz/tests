@@ -15,7 +15,7 @@
 
 
 <region> 
-sample=..\[ samples ]\noise mono.wav
+sample=..\..\samples\noise mono.wav
 loop_mode=loop_continuous pitch_keytrack=0
 cutoff=1000 resonance=10 resonance_oncc73=20
 cutoff_oncc1=8000 cutoff_chanaft=-8000

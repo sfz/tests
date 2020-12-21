@@ -4,20 +4,20 @@
 /// -------------------------------------------------------------------------
 /// width and position
 
-<region> sample=..\[ samples ]\Stereo_16_44100.wav pitch_keytrack=0 amp_veltrack=0
+<region> sample=..\..\samples\Stereo_16_44100.wav pitch_keytrack=0 amp_veltrack=0
 width=0 position=0 lokey=60 hikey=61
 
-<region> sample=..\[ samples ]\Stereo_16_44100.wav pitch_keytrack=0 amp_veltrack=0
+<region> sample=..\..\samples\Stereo_16_44100.wav pitch_keytrack=0 amp_veltrack=0
 width=100 position=0 lokey=62 hikey=63
 
-<region> sample=..\[ samples ]\Stereo_16_44100.wav pitch_keytrack=0 amp_veltrack=0
+<region> sample=..\..\samples\Stereo_16_44100.wav pitch_keytrack=0 amp_veltrack=0
 width=0 position=100 lokey=64 hikey=64
 
-<region> sample=..\[ samples ]\Stereo_16_44100.wav pitch_keytrack=0 amp_veltrack=0
+<region> sample=..\..\samples\Stereo_16_44100.wav pitch_keytrack=0 amp_veltrack=0
 width=0 position=-100 lokey=65 hikey=66
 
-<region> sample=..\[ samples ]\Stereo_16_44100.wav pitch_keytrack=0 amp_veltrack=0
+<region> sample=..\..\samples\Stereo_16_44100.wav pitch_keytrack=0 amp_veltrack=0
 width=50 position=50 lokey=67 hikey=68
 
-<region> sample=..\[ samples ]\Stereo_16_44100.wav pitch_keytrack=0 amp_veltrack=0
+<region> sample=..\..\samples\Stereo_16_44100.wav pitch_keytrack=0 amp_veltrack=0
 width=50 position=-50 lokey=69 hikey=70

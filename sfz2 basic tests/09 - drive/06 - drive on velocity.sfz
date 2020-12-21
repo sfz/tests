@@ -10,7 +10,7 @@
 /// to high velocity notes.
 
 <region> 
-sample=..\[ samples ]\two tone.wav 
+sample=..\..\samples\two tone.wav 
 loop_mode=loop_continuous
 
 drive_shape_oncc131=100

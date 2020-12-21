@@ -8,7 +8,7 @@
 //Right chanel: max range 250Hz -> 4kHz 
 //
 
-<group> sample=..\[ samples ]\noise.wav  loopmode=loop_continuous
+<group> sample=..\..\samples\noise.wav  loopmode=loop_continuous
 ampeg_release=4
 cutoff=1000 resonance=10
 

@@ -10,5 +10,5 @@
 
 
 <region> 
-sample=..\[ samples ]\two tone.wav loop_mode=loop_continuous
+sample=..\..\samples\two tone.wav loop_mode=loop_continuous
 drive_shape_oncc129=100

@@ -9,7 +9,7 @@
 /// Play any key repeatedly, verify that a different volume each time is played.
 
 <group>
-sample=..\[ samples ]\440.wav
+sample=..\..\samples\440.wav
 loop_start=12629 loop_end=56728 loop_mode=loop_continuous
 volume=-12
 

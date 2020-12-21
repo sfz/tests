@@ -18,10 +18,10 @@
 // This example file will try to load the sample 440.wav
 // from a folder called '[ samples ]' located in its parent folder.
 //
-// ....\[ samples ]\
-// ....\[ samples ]\440.wav
+// ....\..\samples\
+// ....\..\samples\440.wav
 // ....\00 - syntax\
 // ....\00 - syntax\syntax introduction.sfz
 
 
-<region> sample=..\[ samples ]\440.wav
+<region> sample=..\..\samples\440.wav

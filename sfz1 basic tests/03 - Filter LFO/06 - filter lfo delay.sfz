@@ -5,5 +5,5 @@
 /// filter lfo delay
 
 <region>
-sample=..\[ samples ]\noise.wav loopmode=loop_continuous
+sample=..\..\samples\noise.wav loopmode=loop_continuous
 fillfo_delay=0.5 fillfo_freq=5 fillfo_depth=1200 cutoff=250 resonance=40

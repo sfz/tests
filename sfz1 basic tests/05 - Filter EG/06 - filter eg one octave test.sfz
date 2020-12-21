@@ -5,5 +5,5 @@
 /// filter eg one octave test
 
 <region>
-sample=..\[ samples ]\noise.wav cutoff=250 resonance=40 volume=-6 loopmode=loop_continuous
+sample=..\..\samples\noise.wav cutoff=250 resonance=40 volume=-6 loopmode=loop_continuous
 fileg_attack=1 fileg_depth=1200 fileg_hold=1w  fileg_sustain=0

@@ -12,10 +12,10 @@
 
 
 <region>
-sample=..\[ samples ]\440.wav
+sample=..\..\samples\440.wav
 loop_start=12629 loop_end=56728 loop_mode=loop_continuous
 lochan=1 hichan=5
 
 <region>
-sample=..\[ samples ]\110.wav
+sample=..\..\samples\110.wav
 lochan=6 hichan=10

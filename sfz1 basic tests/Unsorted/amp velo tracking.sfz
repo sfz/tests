@@ -7,9 +7,9 @@
 /// high region changes twice as much as normal
 
 <region>
-sample=..\[ samples ]\440.wav lokey=0 hikey=59
+sample=..\..\samples\440.wav lokey=0 hikey=59
 amp_veltrack=0
 
 <region>
-sample=..\[ samples ]\440.wav lokey=60 hikey=127
+sample=..\..\samples\440.wav lokey=60 hikey=127
 amp_veltrack=100 volume=10

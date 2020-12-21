@@ -14,5 +14,5 @@
 // The opcode sets the sample to end playing after sample 1764.
 
 <region>
-sample=..\[ samples ]\mono looped 1k.wav 
+sample=..\..\samples\mono looped 1k.wav 
 end=1764

@@ -10,7 +10,7 @@
 /// Play a descending scale starting on c4, verify each note being softer.
 
 <region>
-sample=..\[ samples ]\440.wav
+sample=..\..\samples\440.wav
 loop_start=12629 loop_end=56728 loop_mode=loop_continuous
 amp_veltrack=0
 hikey=c5 // just to protect our ears

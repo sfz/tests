@@ -4,4 +4,4 @@
 /// -------------------------------------------------------------------------
 /// one-shot sample playing
 
-<region> sample=..\[ samples ]\noise.wav loopmode=one_shot pitch_keytrack=0
+<region> sample=..\..\samples\noise.wav loopmode=one_shot pitch_keytrack=0

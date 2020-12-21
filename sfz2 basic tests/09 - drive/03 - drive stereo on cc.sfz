@@ -10,7 +10,7 @@
 /// MIDI cc70 to adjust the drive tone.
 
 <region> 
-sample=..\[ samples ]\stereo 400 looped.wav
+sample=..\..\samples\stereo 400 looped.wav
 
 drive_shape_oncc73=100 volume=-12
 drive_filter=lpf_1p

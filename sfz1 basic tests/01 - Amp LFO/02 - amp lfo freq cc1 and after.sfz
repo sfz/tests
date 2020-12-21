@@ -5,6 +5,6 @@
 /// amp lfo freq on cc1 and channel aftertouch
 
 <region>
-sample=..\[ samples ]\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous
+sample=..\..\samples\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous
 amplfo_freq=2 amplfo_depth=6 volume=-10
 amplfo_freqcc1=-2 amplfo_freqchanaft=2

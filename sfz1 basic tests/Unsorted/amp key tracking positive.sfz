@@ -5,4 +5,4 @@
 /// amplifier keyboard tracking
 
 <region>
-sample=..\[ samples ]\440.wav amp_keycenter=60 amp_keytrack=1 volume=-10
+sample=..\..\samples\440.wav amp_keycenter=60 amp_keytrack=1 volume=-10

@@ -5,20 +5,20 @@
 /// seq_length, seq_position
 /// two independant sequence count note ranges, 0 to 60 and 61 to 127
 
-<region> sample=..\[ samples ]\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous 
+<region> sample=..\..\samples\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous 
 seq_position=1 seq_length=3 hikey=60
 
-<region> sample=..\[ samples ]\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous 
+<region> sample=..\..\samples\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous 
 transpose=2 seq_position=2 seq_length=3 hikey=60
 
-<region> sample=..\[ samples ]\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous 
+<region> sample=..\..\samples\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous 
 transpose=4 seq_position=3 seq_length=3 hikey=60
 
-<region> sample=..\[ samples ]\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous 
+<region> sample=..\..\samples\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous 
 seq_position=1 seq_length=3 lokey=61
 
-<region> sample=..\[ samples ]\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous 
+<region> sample=..\..\samples\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous 
 transpose=2 seq_position=2 seq_length=3 lokey=61
 
-<region> sample=..\[ samples ]\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous 
+<region> sample=..\..\samples\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous 
 transpose=4 seq_position=3 seq_length=3 lokey=61

@@ -15,7 +15,7 @@
 /// Play any note, verify that the amplifier hold time is one second.
 
 <region>
-sample=..\[ samples ]\440.wav 
+sample=..\..\samples\440.wav 
 loop_start=12629 loop_end=56728 loop_mode=loop_continuous
 amp_veltrack=0
 ampeg_hold=1 ampeg_sustain=0

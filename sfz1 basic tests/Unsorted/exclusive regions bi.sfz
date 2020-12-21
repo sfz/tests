@@ -7,12 +7,12 @@
 /// -and viceversa-
 
 <region> 
-lokey=0 hikey=59 sample=..\[ samples ]\110.wav
+lokey=0 hikey=59 sample=..\..\samples\110.wav
 loopstart=10825 loopend=32473 loopmode=loop_continuous
 group=1 offby=2
 
 <region> 
-lokey=60 hikey=127 sample=..\[ samples ]\440.wav 
+lokey=60 hikey=127 sample=..\..\samples\440.wav 
 loopstart=12629 loopend=56728 loopmode=loop_continuous 
 group=2 offby=1
 

@@ -26,7 +26,7 @@
 /// Don't use it on bass samples. Wide but weak.
 
 <group>
-sample=..\[ samples ]\two tone.wav loop_start=10336  loop_end=12100  loop_mode=loop_continuous pitch_keytrack=0 
+sample=..\..\samples\two tone.wav loop_start=10336  loop_end=12100  loop_mode=loop_continuous pitch_keytrack=0 
 amp_veltrack=0
 
 <region> key=c4 width=0   position=0    

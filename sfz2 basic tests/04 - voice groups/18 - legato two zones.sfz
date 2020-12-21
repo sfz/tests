@@ -12,12 +12,12 @@
 ///
 /// Play above c4, verify the legato mode. Play below c4, verify the second region.
 
-<region> sample=..\[ samples ]\mono 400 looped.wav
+<region> sample=..\..\samples\mono 400 looped.wav
 group=1
 polyphony=legato_last
 hikey=b3
 
-<region> sample=..\[ samples ]\mono 400 looped.wav
+<region> sample=..\..\samples\mono 400 looped.wav
 group=2
 polyphony=legato_last
 lokey=c4

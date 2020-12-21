@@ -12,6 +12,6 @@
 /// - That the whole sample plays three times
 
 <region> 
-sample=..\[ samples ]\loop tests - three loops overlap.wav
+sample=..\..\samples\loop tests - three loops overlap.wav
 count=3
 direction=reverse

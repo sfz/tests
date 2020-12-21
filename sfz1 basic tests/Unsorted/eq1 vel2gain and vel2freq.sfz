@@ -5,7 +5,7 @@
 /// eq1 vel2gain and vel2freq
 
 <region>
-sample=..\[ samples ]\noise.wav loopmode=loop_continuous
+sample=..\..\samples\noise.wav loopmode=loop_continuous
 eq1_freq=100
 eq1_vel2freq=3000
 eq1_vel2gain=24

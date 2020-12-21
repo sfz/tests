@@ -13,7 +13,7 @@
 /// 4: filtered stereo delay
 
 <group>
-sample=..\[ samples ]\noise.wav cutoff=1000 resonance=30
+sample=..\..\samples\noise.wav cutoff=1000 resonance=30
 ampeg_attack=0.02 ampeg_hold=0.1 ampeg_sustain=0 pitch_keytrack=0
 loop_mode=one_shot
 

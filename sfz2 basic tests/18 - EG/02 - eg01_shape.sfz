@@ -5,7 +5,7 @@
 /// eg tests
 
 <group>
-sample=..\[ samples ]\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous
+sample=..\..\samples\440.wav loopstart=12629 loopend=56728 loopmode=loop_continuous
 ampeg_release=0
 eg01_pitch=2400
 

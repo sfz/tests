@@ -15,8 +15,8 @@
 // middle C, resulting in MIDI note 60.
 
 
-<region> sample=..\[ samples ]\440.wav key=c4 // will play when MIDI note 60 is received
+<region> sample=..\..\samples\440.wav key=c4 // will play when MIDI note 60 is received
 
 <control> octave_offset=-1
-<region> sample=..\[ samples ]\440.wav key=c4 // will play when MIDI note 48 is received
+<region> sample=..\..\samples\440.wav key=c4 // will play when MIDI note 48 is received
 

@@ -10,7 +10,7 @@
 /// Measure the attack and release times.
 
 <region> 
-sample=..\[ samples ]\compressor test link.wav
+sample=..\..\samples\compressor test link.wav
 loop_mode=loop_continuous
 
 gate_stlink=on

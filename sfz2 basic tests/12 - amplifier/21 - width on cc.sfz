@@ -9,7 +9,7 @@
 /// Play any key, use cc73 to adjust the width.
 
 <group>
-sample=..\[ samples ]\two tone.wav loop_start=10336  loop_end=12100  loop_mode=loop_continuous pitch_keytrack=0 
+sample=..\..\samples\two tone.wav loop_start=10336  loop_end=12100  loop_mode=loop_continuous pitch_keytrack=0 
 amp_veltrack=0
 
 width=-100

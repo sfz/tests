@@ -24,7 +24,7 @@
 
 
 <region> 
-sample=..\[ samples ]\mono silence.wav
+sample=..\..\samples\mono silence.wav
 amp_veltrack=0
 
 noise_filter=pink

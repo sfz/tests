@@ -5,6 +5,6 @@
 /// filter eg decay and sustain
 
 <region>
-sample=..\[ samples ]\noise.wav cutoff=250 resonance=40 volume=-6 loopmode=loop_continuous amp_veltrack=0 loopmode=loop_continuous
+sample=..\..\samples\noise.wav cutoff=250 resonance=40 volume=-6 loopmode=loop_continuous amp_veltrack=0 loopmode=loop_continuous
 ampeg_release=5
 fileg_vel2release=3 fileg_depth=1200

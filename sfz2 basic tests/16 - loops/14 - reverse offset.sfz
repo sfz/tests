@@ -10,5 +10,5 @@
 /// Verify that the offset is counted from the sample end, backward.
 
 <region> 
-sample=..\[ samples ]\bd.wav direction=reverse
+sample=..\..\samples\bd.wav direction=reverse
 offset=24307

@@ -5,5 +5,5 @@
 /// filter eg vel2attack
 
 <region>
-sample=..\[ samples ]\noise.wav cutoff=250 resonance=40 volume=-6 amp_veltrack=0 loopmode=loop_continuous
+sample=..\..\samples\noise.wav cutoff=250 resonance=40 volume=-6 amp_veltrack=0 loopmode=loop_continuous
 fileg_attack=2 fileg_vel2attack=-3 fileg_depth=1200

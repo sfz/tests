@@ -7,4 +7,4 @@
 /// then whole sample is played as loop
 
 <region>
-sample=..\[ samples ]\bd.wav loopmode=loop_continuous
+sample=..\..\samples\bd.wav loopmode=loop_continuous

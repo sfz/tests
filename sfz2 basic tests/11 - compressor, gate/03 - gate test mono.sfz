@@ -10,7 +10,7 @@
 /// Measure the attack and release times.
 
 <region> 
-sample=..\[ samples ]\compressor test mono.wav
+sample=..\..\samples\compressor test mono.wav
 loop_mode=loop_continuous
 
 gate_threshold=-6

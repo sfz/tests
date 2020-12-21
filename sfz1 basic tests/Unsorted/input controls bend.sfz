@@ -7,5 +7,5 @@
 /// 110.wav will play if Pitch Bend is in the negative range
 /// no sound with bend centered
 
-<region> sample=..\[ samples ]\440.wav lobend=1 hibend=8192
-<region> sample=..\[ samples ]\110.wav lobend=-8192 hibend=-1
+<region> sample=..\..\samples\440.wav lobend=1 hibend=8192
+<region> sample=..\..\samples\110.wav lobend=-8192 hibend=-1

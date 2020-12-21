@@ -27,5 +27,5 @@
 // It is also possible to define the polyphony for repeated notes, and specify
 // a velocity self-masking limit. See 'voice groups' examples.
 
-<region> sample=..\[ samples ]\440.wav lokey=c4
-<region> sample=..\[ samples ]\110.wav hikey=b3
+<region> sample=..\..\samples\440.wav lokey=c4
+<region> sample=..\..\samples\110.wav hikey=b3

@@ -13,7 +13,7 @@
 /// than 64 (press hard), and two octaves high.
 
 <group>
-sample=..\[ samples ]\440.wav
+sample=..\..\samples\440.wav
 
 <region> transpose=-36 volume=-6
 <region> hikey=b3 transpose=-24

@@ -10,7 +10,7 @@
 /// use cc1 and cc2 to change the formant peaks.
 
 <group>
-sample=..\[ samples ]\noise mono.wav loop_mode=loop_continuous
+sample=..\..\samples\noise mono.wav loop_mode=loop_continuous
 
 <region>
 eq1_freq=600

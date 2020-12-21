@@ -16,4 +16,4 @@
 /// - loop count (number of times the loop must be played)
 /// - loop direction (forward, backward, alternate)
 
-<region> sample=..\[ samples ]\mono looped 1k.wav
+<region> sample=..\..\samples\mono looped 1k.wav
