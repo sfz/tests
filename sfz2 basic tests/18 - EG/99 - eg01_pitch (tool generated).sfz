@@ -9,7 +9,7 @@ sample=..\..\samples\440.wav
 loopstart=12629 loopend=56728 loopmode=loop_continuous
 ampeg_release=40
 
-/------------------------------------------------------------------------------
+
 eg01_points=10 eg01_loop=3 eg01_loop_shape=002.00000 eg01_sustain=6
 
 eg01_time00=000.00000    eg01_level00=0.00000    eg01_shape00=002.00000
@@ -22,7 +22,7 @@ eg01_time06=001.03750    eg01_level06=0.28000    eg01_shape06=002.00000
 eg01_time07=001.22250    eg01_level07=0.23000    eg01_shape07=002.00000
 eg01_time08=001.58750    eg01_level08=0.80000    eg01_shape08=002.00000
 eg01_time09=002.35000    eg01_level09=0.00000    eg01_shape09=002.00000
-/------------------------------------------------------------------------------
+
 
 
 
