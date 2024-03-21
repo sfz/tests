@@ -17,7 +17,7 @@ eg10_level3=1 	eg10_time3=1 eg10_shape3=.1
 eg10_level4=0.5 eg10_time4=1
 eg10_level5=0   eg10_time5=0
 
-eg10_depthadd_lfo10=300
+eg10_depthadd_lfo10=200 //was 300. It seems Dimension Pro 1.5 internally clips [-200;200] here. 
 lfo10_freq=4
 lfo10_pitch=200
 
